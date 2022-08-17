@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__xbutton" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__사각형_209" data-name="사각형 209">
+        <path id="prefix__패스_2903" d="M0 30A30 30 0 0 1 30 0a30 30 0 0 1 30 30 30 30 0 0 1-30 30A30 30 0 0 1 0 30z" data-name="패스 2903" style="fill:none"/>
+        <path id="prefix__패스_2904" d="M30 60a30 30 0 1 1 30-30 30 30 0 0 1-30 30zm0-58a28 28 0 1 0 28 28A28 28 0 0 0 30 2z" class="prefix__cls-2" data-name="패스 2904"/>
+    </g>
+    <path id="prefix__패스_2905" d="M31.871 30.25l7.19-7.189a1.5 1.5 0 1 0-2.121-2.122l-7.19 7.19-6.689-6.69a1.5 1.5 0 0 0-2.121 2.122l6.689 6.689-6.689 6.689a1.5 1.5 0 0 0 2.121 2.122l6.689-6.69 7.19 7.19a1.5 1.5 0 0 0 2.121-2.122z" class="prefix__cls-2" data-name="패스 2905"/>
+</svg>
