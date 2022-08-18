@@ -1,0 +1,7 @@
+@font-face{src:url(../fonts/NanumSquareRoundR.ttf) format('truetype'); font-family:"NanumSquareRoundR"; font-style: normal;}
+@font-face{src:url(../fonts/NanumSquareRoundB.ttf) format('truetype'); font-family:"NanumSquareRoundB"; font-style: normal;}
+@font-face{src:url(../fonts/NanumSquareRoundEB.ttf) format('truetype'); font-family:"NanumSquareRoundEB"; font-style: normal;}
+
+header ul li a , main .aiAera h3 , .contentSlide01 .swiper-wrapper h4{font-family:"NanumSquareRoundEB";}
+main section h3{font-family:"NanumSquareRoundB"}
+.mainSlideBg1 p , main section p{font-family: "NanumSquareRoundR";}
