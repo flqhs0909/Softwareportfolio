@@ -15,19 +15,26 @@ $(document).ready(function(){
       slidesPerView: 'auto',
       spaceBetween: 60,
       navigation: {
+        nextEl: ".swiper-button-next", 
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var swiper = new Swiper(".contentSlide02", {
+      slidesPerView: 'auto',
+      spaceBetween: 60,
+      navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
     });
 
-    // var swiper = new Swiper(".contentsSlide02", {
-    //   slidesPerView: 'auto',
-    //   spaceBetween: 60,
-    //   navigation: {
-    //     nextEl: ".swiper-button-next",
-    //     prevEl: ".swiper-button-prev",
-    //   },
-    // });
+    $('#loginBtn').click(function(){
+      $('#login').addClass('active')
+    });
+    $('#login button').click(function(){
+      $('#login').removeClass("active")
+    });
 
   
 });
