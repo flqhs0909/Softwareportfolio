@@ -22,7 +22,7 @@ button{background: none; border: none;}
 .mainSlideBg1 .width1200 .object img {position: absolute; }
 .mainSlideBg1 .width1200 .object img:nth-of-type(1) {height: 261px;  left: 67% ;top: 330px; animation: mainRobot 1s infinite alternate; }
 .mainSlideBg1 .width1200 .object img:nth-of-type(2) {height: 135px;  left: 57% ;top: 175px; animation: subRobot 1s infinite alternate; }/*animation-duration: 1s;animation-iteration-count: infinite; animation-direction:alternate;*/
-.mainSlideBg1 .width1200 .object img:nth-of-type(3) {height: 66px;  left: 80% ;top: 150px;  animation: circleObj 3s infinite linear ;transform-origin: 50% 40px; }
+.mainSlideBg1 .width1200 .object img:nth-of-type(3) {height: 66px;  left: 80% ;top: 150px;  animation: circleObj 3s infinite linear ;transform-origin: 50% 40px;animation-direction: reverse ; }
 .mainSlideBg1 .width1200 .object img:nth-of-type(4) {height: 147px;  left: 50% ;top: 507px;animation: circleObj2 3s infinite linear ; }
 .mainSlideBg1 .width1200 .object img:nth-of-type(5) {height: 359px;  right: 33px; ;top: 555px; }
 
@@ -36,9 +36,10 @@ button{background: none; border: none;}
    
 }
 @keyframes circleObj{
-    to {transform: rotate(360deg);}
+    to {transform: rotate(360deg) translateX(0);}
 }
 @keyframes circleObj2{
+   
     0%{top:507px ;left: 50%;}
    25%{ top:510px; left:50.5%}  
    50%{ top:513px; left:50%}
@@ -49,8 +50,6 @@ button{background: none; border: none;}
 30%{top:510px; left: 51%;}
 60%{top :515px;left: 50%;}
 90%{top: 510px;left: 49%;} */
-
-
 
 /* 메인 두번째 swiper 슬라이드  */
 .swiper .swiper-wrapper .mainSlideBg2{ background-color: #5442E4; background-image: url(../image/main/Frame5.png);background-repeat: no-repeat; background-position: center; }
@@ -81,11 +80,11 @@ button{background: none; border: none;}
 /* 콘텐츠 시작 */
 main{ background: url(../image/main/Frame1.png) , linear-gradient(to bottom,#00EDA9, #FFFFFF 14% );margin-bottom: 274px; background-repeat: no-repeat;background-position: center top;}
 
-main section h3{ line-height:50px;margin-bottom:31px; font-size: 42px; }
+main section h2{ line-height:50px;margin-bottom:31px; font-size: 42px; }
 main section p{line-height: 31px; font-size: 20px;  color: #666666; }
 
 main section:first-child{padding-top: 260px; margin-bottom: 330px;}
-main section:first-child h3{width: 283px;}
+main section:first-child h2{width: 283px;}
 main section:first-child p{ width:275px ;margin-bottom: 73px;}
 
 /* 자세히 보기 버튼 */
@@ -94,7 +93,7 @@ main section:first-child p{ width:275px ;margin-bottom: 73px;}
 
 /*  Hello AI World 영역 */
 main .aiArea{  text-align: center;  margin: 0 auto 202px; }
-main .aiArea > h3{ line-height: 70px;  margin-bottom: 88px;font-size: 70px; }
+main .aiArea > h2{ line-height: 70px;  margin-bottom: 88px;font-size: 70px; }
 main .aiArea > p{width: 412px;line-height: 37px; margin: 0 auto 41px; font-size: 23px;  color: #666666;}
 main .aiArea .readmore{margin: 0 auto 124px;}
 main .aiArea video{ width: 988px;margin: 0 auto; }
@@ -108,7 +107,7 @@ ul > li > img{width: 360px; height: 218px; margin-bottom: 16px;}
 /* 교육 콘텐츠 영역(콘텐츠 슬라이드 1) */
 main .educationArea{ margin:0 0px 244px 120px ;display: flex;  position: relative;}
 main .educationArea .edu{height: 318px; margin-right: 146px; }
-main .educationArea .edu > h3{width: 202px ;}
+main .educationArea .edu > h2{width: 202px ;}
 main .educationArea .edu > p{width: 275px; margin-bottom: 46px; }
 main .educationArea .contentSlide01 .swiper-wrapper .swiper-slide p{width: 360px; margin-bottom: 10px; font-size: 18px;white-space:nowrap; overflow: hidden; text-overflow: ellipsis;}
 main .educationArea .contentSlide01 .swiper-wrapper .swiper-slide img{margin-right: 6px;}
@@ -136,5 +135,13 @@ main .storyBtn{ width: 105px; height: 48px; display: flex; justify-content: cent
 
 /* 슬라이더가 한 페이지에 다 나올 때 비활성화버튼 */
 .swiper-button-lock{display: block; line-height: 52px;}
+
+
+
+/* 알아보기 */
+.learn {height: 650px; background-color: #46298F; background-image: url(../image/sub1/bg_spot_introduction1.png); background-position: 72%  ; background-repeat: no-repeat;}
+.learn > div {padding: 210px 0 ;}
+.learnArea{padding: 168px 0;}
+.learnArea div h2{line-height: 58px;margin-bottom: 56px; font-size: 42px;text-align: center; }
 
 

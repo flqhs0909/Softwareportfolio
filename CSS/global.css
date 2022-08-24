@@ -4,7 +4,7 @@
 
 /* NanumSquareRound  EB */
 header> div > nav ul li, .loginBtn,  .login p , .login ul li a b ,.swiper-slide b ,
-.swiper .swiper-wrapper .mainSlideBg2 > div em ,  main .aiAera h3 , main section h3  ,
+.swiper .swiper-wrapper .mainSlideBg2 > div em ,  main .aiAera h2 , main section h2  ,
 .swiper .swiper-wrapper .mainSlideBg2 > div mark ,#login p , #login ul li a b , .readmore
 {font-family:"NanumSquareRoundEB";}
 
@@ -16,7 +16,7 @@ footer .width1200 div b ,main .educationArea .contentSlide01 .swiper-wrapper .sw
 {font-family:"NanumSquareRoundB"}
 
 /* NanumSquareRound  R */
- footer .width1200 div address p , footer div small ,footer .width1200 p {font-family: "NanumSquareRoundR";}
+ footer .width1200 div address p , footer div small ,footer .width1200 p ,footer ul ,footer .width1200 div a{font-family: "NanumSquareRoundR";}
 
 
 /* header 헤더 */
@@ -48,3 +48,4 @@ footer ul{width: 328px; display: flex; align-items: center;}
 footer ul li{ font-size: 14px;margin-right: 18px; }
 footer .social{justify-content: right; }
 footer .social li{margin-right: 10px;}
+
