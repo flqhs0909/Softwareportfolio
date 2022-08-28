@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .prefix__cls-4{fill:#434dff}
+        </style>
+    </defs>
+    <g id="prefix__CLOVA_Icon_5_OCR" transform="translate(-1 -.99)">
+        <g id="prefix__그룹_4048" data-name="그룹 4048" transform="translate(1.583 1.573)">
+            <circle id="prefix__타원_48285" cx="19.417" cy="19.417" r="19.417" data-name="타원 48285" style="fill:#00eda9"/>
+        </g>
+        <g id="prefix__그룹_4049" data-name="그룹 4049" transform="translate(8.573 14.776)">
+            <path id="prefix__패스_3101" d="M30.6 62.109V41.15H20.5v-4.66h24.854v4.66h-10.1v20.983z" data-name="패스 3101" transform="translate(-20.5 -36.49)" style="fill:#fff"/>
+        </g>
+        <g id="prefix__그룹_4050" data-name="그룹 4050" transform="translate(1 .99)">
+            <path id="prefix__패스_3102" d="M21 40.99a20 20 0 1 1 20-20 20.021 20.021 0 0 1-20 20zm0-38.835A18.835 18.835 0 1 0 39.835 20.99 18.855 18.855 0 0 0 21 2.155z" data-name="패스 3102" transform="translate(-1 -.99)" style="fill:#181f41"/>
+        </g>
+        <g id="prefix__그룹_4051" data-name="그룹 4051" transform="translate(32.65 14)">
+            <path id="prefix__사각형_632" d="M0 0H1.553V1.553H0z" class="prefix__cls-4" data-name="사각형 632"/>
+        </g>
+        <g id="prefix__그룹_4052" data-name="그룹 4052" transform="translate(32.65 18.66)">
+            <path id="prefix__사각형_633" d="M0 0H1.553V1.553H0z" class="prefix__cls-4" data-name="사각형 633"/>
+        </g>
+        <g id="prefix__그룹_4053" data-name="그룹 4053" transform="translate(7.796 14)">
+            <path id="prefix__사각형_634" d="M0 0H1.553V1.553H0z" class="prefix__cls-4" data-name="사각형 634"/>
+        </g>
+        <g id="prefix__그룹_4054" data-name="그룹 4054" transform="translate(7.796 18.66)">
+            <path id="prefix__사각형_635" d="M0 0H1.553V1.553H0z" class="prefix__cls-4" data-name="사각형 635"/>
+        </g>
+        <g id="prefix__그룹_4055" data-name="그룹 4055" transform="translate(17.893 18.66)">
+            <path id="prefix__사각형_636" d="M0 0H1.553V1.553H0z" class="prefix__cls-4" data-name="사각형 636"/>
+        </g>
+        <g id="prefix__그룹_4056" data-name="그룹 4056" transform="translate(22.553 18.66)">
+            <path id="prefix__사각형_637" d="M0 0H1.553V1.553H0z" class="prefix__cls-4" data-name="사각형 637"/>
+        </g>
+    </g>
+</svg>

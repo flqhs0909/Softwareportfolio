@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#fff}.prefix__cls-4{fill:#434dff}
+        </style>
+    </defs>
+    <g id="prefix__CLOVA_Icon_4_Call" transform="translate(-1 -1)">
+        <g id="prefix__그룹_4041" data-name="그룹 4041" transform="translate(1.583 1.583)">
+            <circle id="prefix__타원_48281" cx="19.417" cy="19.417" r="19.417" data-name="타원 48281" style="fill:#00eda9"/>
+        </g>
+        <g id="prefix__그룹_4042" data-name="그룹 4042" transform="translate(1 1)">
+            <path id="prefix__패스_3098" d="M21 41a20 20 0 1 1 20-20 20.021 20.021 0 0 1-20 20zm0-38.835A18.835 18.835 0 1 0 39.835 21 18.858 18.858 0 0 0 21 2.165z" data-name="패스 3098" transform="translate(-1 -1)" style="fill:#181f41"/>
+        </g>
+        <g id="prefix__그룹_4043" data-name="그룹 4043" transform="translate(8.767 8.767)">
+            <path id="prefix__패스_3099" d="M33.233 45.466a.583.583 0 1 1 0-1.165 11.068 11.068 0 1 0-11.068-11.068.583.583 0 0 1-1.165 0 12.233 12.233 0 1 1 12.233 12.233z" class="prefix__cls-3" data-name="패스 3099" transform="translate(-21 -21)"/>
+        </g>
+        <g id="prefix__그룹_4044" data-name="그룹 4044" transform="translate(7.019 18.67)">
+            <circle id="prefix__타원_48282" cx="2.33" cy="2.33" r="2.33" class="prefix__cls-4" data-name="타원 48282"/>
+        </g>
+        <g id="prefix__그룹_4045" data-name="그룹 4045" transform="translate(30.32 18.67)">
+            <circle id="prefix__타원_48283" cx="2.33" cy="2.33" r="2.33" class="prefix__cls-4" data-name="타원 48283"/>
+        </g>
+        <g id="prefix__그룹_4046" data-name="그룹 4046" transform="translate(18.67 30.32)">
+            <circle id="prefix__타원_48284" cx="2.33" cy="2.33" r="2.33" class="prefix__cls-4" data-name="타원 48284"/>
+        </g>
+        <g id="prefix__그룹_4047" data-name="그룹 4047" transform="translate(17.137 22.942)">
+            <path id="prefix__패스_3100" d="M49.888 57.5a.392.392 0 0 1 .388.435 3.885 3.885 0 0 1-7.72 0 .39.39 0 0 1 .388-.435z" class="prefix__cls-3" data-name="패스 3100" transform="translate(-42.553 -57.5)"/>
+        </g>
+    </g>
+</svg>

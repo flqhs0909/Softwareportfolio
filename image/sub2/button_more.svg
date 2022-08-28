@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__morebutton" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#ddd}
+        </style>
+    </defs>
+    <g id="prefix__타원_86" data-name="타원 86">
+        <circle id="prefix__타원_509453" cx="30" cy="30" r="30" data-name="타원 509453" style="fill:none"/>
+        <path id="prefix__패스_251711" d="M30 60a30 30 0 1 1 30-30 30 30 0 0 1-30 30zm0-58a28 28 0 1 0 28 28A28 28 0 0 0 30 2z" class="prefix__cls-2" data-name="패스 251711"/>
+    </g>
+    <path id="prefix__패스_251712" d="M40.5 29H32v-8.5a1.5 1.5 0 0 0-3 0V29h-8.5a1.5 1.5 0 0 0 0 3H29v8.5a1.5 1.5 0 0 0 3 0V32h8.5a1.5 1.5 0 0 0 0-3z" class="prefix__cls-2" data-name="패스 251712"/>
+</svg>

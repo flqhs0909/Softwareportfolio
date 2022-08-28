@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__ai_icon_4" width="124" height="124" viewBox="0 0 124 124">
+    <defs>
+        <style>
+            .prefix__cls-2,.prefix__cls-5{fill:none;stroke:#434dfe;stroke-linecap:round;stroke-linejoin:round}.prefix__cls-2{stroke-width:3px}.prefix__cls-5{stroke-width:2px}
+        </style>
+    </defs>
+    <circle id="prefix__illust_3-3" cx="62" cy="62" r="62" style="fill:#fff"/>
+    <g id="prefix__그룹_1345" transform="translate(-100 -174.25)">
+        <g id="prefix__그룹_1343">
+            <path id="prefix__선_244" d="M0 0L0 13" class="prefix__cls-2" transform="translate(111 229.5)"/>
+            <path id="prefix__선_245" d="M0 0L0 27" class="prefix__cls-2" transform="translate(120.364 222.5)"/>
+            <path id="prefix__선_246" d="M0 0L0 23" class="prefix__cls-2" transform="translate(129.727 224.5)"/>
+            <path id="prefix__선_247" d="M0 0L0 16" class="prefix__cls-2" transform="translate(139.091 228)"/>
+            <path id="prefix__선_248" d="M0 0L0 25" class="prefix__cls-2" transform="translate(148.455 223.5)"/>
+            <path id="prefix__선_249" d="M0 0L0 16" class="prefix__cls-2" transform="translate(157.818 228)"/>
+            <path id="prefix__선_250" d="M0 0L0 16" class="prefix__cls-2" transform="translate(167.182 228.5)"/>
+            <path id="prefix__선_251" d="M0 0L0 16" class="prefix__cls-2" transform="translate(185.909 228.5)"/>
+            <path id="prefix__선_252" d="M0 0L0 28" class="prefix__cls-2" transform="translate(195.273 222.5)"/>
+            <path id="prefix__선_253" d="M0 0L0 22" class="prefix__cls-2" transform="translate(204.636 225.5)"/>
+            <path id="prefix__선_254" d="M0 0L0 14" class="prefix__cls-2" transform="translate(214 229.5)"/>
+            <path id="prefix__선_255" d="M0 0L0 12" class="prefix__cls-2" transform="translate(176.545 230.5)"/>
+        </g>
+        <path id="prefix__패스_1858" d="M143.375 206.25a3.4 3.4 0 0 0-3.4 3.4v52.7a3.4 3.4 0 0 0 3.4 3.4h38.25a3.4 3.4 0 0 0 3.4-3.4v-44.2l-11.9-11.9h-29.75z" style="fill:#0ea"/>
+        <g id="prefix__그룹_1344">
+            <path id="prefix__사각형_428" d="M162.5 221.55a7.65 7.65 0 0 1 7.65 7.65v10.2a7.65 7.65 0 0 1-7.65 7.65 7.65 7.65 0 0 1-7.65-7.65v-10.2a7.65 7.65 0 0 1 7.65-7.65z" style="fill:#434dfe"/>
+            <path id="prefix__패스_1859" d="M173.55 238.975a11.05 11.05 0 1 1-22.1 0" class="prefix__cls-5"/>
+            <path id="prefix__선_256" d="M0 0L0 6.8" class="prefix__cls-5" transform="translate(162.5 250.45)"/>
+        </g>
+        <path id="prefix__패스_1860" d="M177.452 218.15h7.573l-11.9-11.9v7.573a4.327 4.327 0 0 0 4.327 4.327z" style="fill:#99f8dd"/>
+    </g>
+</svg>

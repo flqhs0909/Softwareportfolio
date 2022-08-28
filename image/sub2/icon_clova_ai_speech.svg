@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#fff}.prefix__cls-4{fill:#434dff}
+        </style>
+    </defs>
+    <g id="prefix__CLOVA_Icon_3_Speech" transform="translate(-1 -1)">
+        <g id="prefix__그룹_4030" data-name="그룹 4030" transform="translate(1.583 1.583)">
+            <circle id="prefix__타원_48278" cx="19.417" cy="19.417" r="19.417" data-name="타원 48278" style="fill:#00eda9"/>
+        </g>
+        <g id="prefix__그룹_4031" data-name="그룹 4031" transform="translate(1 1)">
+            <path id="prefix__패스_3090" d="M21 41a20 20 0 1 1 20-20 20.021 20.021 0 0 1-20 20zm0-38.835A18.835 18.835 0 1 0 39.835 21 18.858 18.858 0 0 0 21 2.165z" data-name="패스 3090" transform="translate(-1 -1)" style="fill:#181f41"/>
+        </g>
+        <g id="prefix__그룹_4032" data-name="그룹 4032" transform="translate(15.175 16.728)">
+            <path id="prefix__패스_3091" d="M37.5 46.354h2.427a2.428 2.428 0 0 1-2.427 2.428v2.427a4.856 4.856 0 0 0 4.854-4.854V41.5H37.5z" class="prefix__cls-3" data-name="패스 3091" transform="translate(-37.5 -41.5)"/>
+        </g>
+        <g id="prefix__그룹_4033" data-name="그룹 4033" transform="translate(21.971 16.728)">
+            <path id="prefix__패스_3092" d="M55 46.354h2.427A2.428 2.428 0 0 1 55 48.782v2.427a4.856 4.856 0 0 0 4.854-4.854V41.5H55z" class="prefix__cls-3" data-name="패스 3092" transform="translate(-55 -41.5)"/>
+        </g>
+        <g id="prefix__그룹_4034" data-name="그룹 4034" transform="translate(9.412 9.416)">
+            <path id="prefix__패스_3093" d="M23.41 36.748a.586.586 0 0 1-.575-.482 11.59 11.59 0 0 1 17.2-12.047.583.583 0 1 1-.583 1.01 10.423 10.423 0 0 0-15.631 9.025 10.843 10.843 0 0 0 .155 1.81.585.585 0 0 1-.474.676.757.757 0 0 1-.092.008z" class="prefix__cls-4" data-name="패스 3093" transform="translate(-22.66 -22.67)"/>
+        </g>
+        <g id="prefix__그룹_4035" data-name="그룹 4035" transform="translate(14.915 16.655)">
+            <path id="prefix__패스_3094" d="M42.916 57.241a11.58 11.58 0 0 1-5.794-1.55.583.583 0 0 1 .583-1.01 10.426 10.426 0 0 0 15.005-12.59.582.582 0 1 1 1.1-.4 11.592 11.592 0 0 1-10.894 15.55z" class="prefix__cls-4" data-name="패스 3094" transform="translate(-36.83 -41.311)"/>
+        </g>
+        <g id="prefix__그룹_4036" data-name="그룹 4036" transform="translate(11.307 26.631)">
+            <circle id="prefix__타원_48279" cx=".68" cy=".68" r=".68" class="prefix__cls-4" data-name="타원 48279"/>
+        </g>
+        <g id="prefix__그룹_4037" data-name="그룹 4037" transform="translate(15.214 5.206)">
+            <path id="prefix__패스_3095" d="M58.082 24.269a.584.584 0 0 1-.563-.431 14.646 14.646 0 0 0-19.138-9.965.582.582 0 1 1-.4-1.1 15.811 15.811 0 0 1 20.66 10.757.586.586 0 0 1-.412.715.675.675 0 0 1-.147.024z" class="prefix__cls-4" data-name="패스 3095" transform="translate(-37.601 -11.83)"/>
+        </g>
+        <g id="prefix__그룹_4038" data-name="그룹 4038" transform="translate(5.206 11.692)">
+            <path id="prefix__패스_3096" d="M20.016 51.595a.575.575 0 0 1-.291-.078 15.8 15.8 0 0 1-5.041-22.738.583.583 0 0 1 .955.668 14.632 14.632 0 0 0 4.668 21.06.583.583 0 0 1-.291 1.087z" class="prefix__cls-4" data-name="패스 3096" transform="translate(-11.83 -28.531)"/>
+        </g>
+        <g id="prefix__그룹_4039" data-name="그룹 4039" transform="translate(20.417 20.417)">
+            <path id="prefix__패스_3097" d="M51.583 67.377a.583.583 0 1 1 0-1.165 14.646 14.646 0 0 0 14.629-14.629.583.583 0 1 1 1.165 0 15.815 15.815 0 0 1-15.794 15.794z" class="prefix__cls-4" data-name="패스 3097" transform="translate(-51 -51)"/>
+        </g>
+        <g id="prefix__그룹_4040" data-name="그룹 4040" transform="translate(11.062 8.254)">
+            <circle id="prefix__타원_48280" cx=".68" cy=".68" r=".68" class="prefix__cls-4" data-name="타원 48280"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="449" height="292.681" viewBox="0 0 449 292.681">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#bbb;stroke-linecap:round;stroke-width:2px;stroke-dasharray:0 6}
+        </style>
+    </defs>
+    <g id="line" transform="translate(-6008.5 -2737.16)">
+        <path id="선_250" d="M93 0L0 0" class="cls-1" transform="translate(6009.5 2883.5)"/>
+        <path id="선_252" d="M72 145L0 0" class="cls-1" transform="translate(6018.5 2738.5)"/>
+        <path id="선_253" d="M72 0L0 145" class="cls-1" transform="translate(6018.5 2883.5)"/>
+        <path id="선_255" d="M79 0L0 0" class="cls-1" transform="translate(6377.5 2884)"/>
+    </g>
+</svg>

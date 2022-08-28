@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__ai_icon_2" width="124" height="124" viewBox="0 0 124 124">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:none;stroke:#181f41;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <circle id="prefix__illust_3-2" cx="62" cy="62" r="62" style="fill:#fff"/>
+    <g id="prefix__그룹_1330" transform="translate(-210.85 -2499)">
+        <path id="prefix__패스_1844" d="M254.85 2535h-14v9" class="prefix__cls-2"/>
+    </g>
+    <g id="prefix__그룹_1332" transform="translate(30 283)">
+        <path id="prefix__패스_1844-2" d="M14-195H0v-9" class="prefix__cls-2"/>
+    </g>
+    <g id="prefix__그룹_1331" transform="translate(80 240)">
+        <path id="prefix__패스_1844-3" d="M0-204h14v9" class="prefix__cls-2"/>
+    </g>
+    <g id="prefix__그룹_1333" transform="translate(80 283)">
+        <path id="prefix__패스_1844-4" d="M0-195h14v-9" class="prefix__cls-2"/>
+    </g>
+    <circle id="prefix__타원_34132" cx="8" cy="8" r="8" transform="translate(54 44)" style="fill:#434dfe"/>
+    <path id="prefix__패스_1845" d="M44.3 80.264a17.7 17.7 0 0 1 35.4 0z" style="fill:#00eda9"/>
+</svg>
