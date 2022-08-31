@@ -99,5 +99,31 @@ $(document).ready(function(){
       },
 
     });
+    // 네이버 기술 
+    var swiper = new Swiper(".clovaSlide", {
+      slidesPerView: 'auto',
+      spaceBetween: 60,
+      navigation: {
+        nextEl: ".swiper-button-next.clovaNext ",
+        prevEl: ".swiper-button-prev.clovaPrev",
+      },
+
+    });
+    var swiper = new Swiper(".labsSlide", {
+      slidesPerView: 'auto',
+      spaceBetween: 60,
+      navigation: {
+        nextEl: ".swiper-button-next.labsNext ",
+        prevEl: ".swiper-button-prev.labsPrev",
+      },
+
+    });
+
+    $(".clovaArea > li > button").click(function(){
+      $(this).parent().addClass("active") 
+        .siblings() 
+        .removeClass("active")
+      return false;
+    });
 
 });
