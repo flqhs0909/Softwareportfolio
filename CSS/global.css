@@ -13,7 +13,9 @@ header> div > nav ul li, .loginBtn,  .login p , .login ul li a b ,.swiper-slide 
 /* ai&data 페이지2*/
 .enterpriseArea .boxSlide ul li h3, .linkbtn ,
 /* 소프트웨어 페이지3 */
+.subpageInner .relation > b,
 .subpageInner .relation ul li a b,
+
 /* 프로그램 */
 .programContainer .programContents li 
 {font-family:"NanumSquareRoundEB";}
@@ -37,17 +39,20 @@ footer .width1200 div b ,main .educationArea .contentSlide01 .swiper-wrapper .sw
 /* 소프트웨어 page03 */
 .softwareTitle p ,.softwareContainer div .foundationArea li, .subpageInner .relation ul li a p ,
 .subpageInner div section div b ,.subpageInner div section div p , .subpageInner div section div mark , .softwareTitle p ,
-.softwareContainer .booksArea li a b , a.listBack
+.softwareContainer div .booksArea li > b , a.listBack
 /* 프로그램 page04 */
-,.programTitle p,
+,  .programTitle p, .programContainer,
 /* 아카이브 page05 */
-.archiveTitle p ,.newsContainer > div figure p
+.archiveTitle p ,.newsContainer > div figure p ,.archiveArea li
 {font-family:"NanumSquareRoundB"} 
 
 /* NanumSquareRound  R */
  footer .width1200 div address p , footer div small ,footer .width1200 p ,footer ul ,footer .width1200 div a,
  /* ai & data */
- article mark ,.entryArea .dropInner .moduleArea li mark 
+ article mark ,.entryArea .dropInner .moduleArea li mark ,
+ /* pagr02_02 */
+ .programContainer .infoBox03 .infoItem01 figure p ,.programContainer section > div ul li
+ 
  
  {font-family: "NanumSquareRoundR";}
 
@@ -70,7 +75,6 @@ header.whiteBg.active{ background-color: #ffffff;}
 header.whiteBg.active h1 img {opacity: 0;}
 header.whiteBg.active h1{width: 162px; height: 52px; background-image: url(../image/main/logo_black.svg); cursor: pointer;}
 header.whiteBg.active nav ul li a{color: #181F41; }
-
 header.whiteBg.active input[type="button"]{width: 100px; height: 48px; font-size: 18px;cursor: pointer;  border: none;color: #434DFE; background: none; background-image:url(../image/main/button_login_black.png) ;background-repeat: no-repeat; background-size:cover; }
 
 /* header Black */

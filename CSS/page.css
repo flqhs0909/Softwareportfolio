@@ -131,8 +131,6 @@ main .storyBtn{ width: 105px; height: 48px; display: flex; justify-content: cent
 /* 슬라이더가 한 페이지에 다 나올 때 비활성화버튼 */
 .swiper-button-lock {display: block; line-height: 52px;}
 
-
-
 /* 알아보기 page01 */
 .learnTitle {height: 650px; background-color: #46298F; background-image: url(../image/sub/bg_spot_introduction1.png); background-position: 72%  ; background-repeat: no-repeat; }
 .learnTitle div > h2 {padding: 205px 0 ; margin-bottom: 0;}
@@ -145,23 +143,23 @@ main .storyBtn{ width: 105px; height: 48px; display: flex; justify-content: cent
 .learnContainer .dropDown{margin-bottom: 125px;}
 .dropDown li:not(:first-child){margin-top: 42px;}
 /* 드롭다운 타이틀 */
-.dropTitle{height:106px;padding: 0 44px; display: flex; justify-content: space-between; align-items: center; border: 2px solid #dddddd; border-radius: 50px;line-height: 37px;font-size: 20px;   color: #999999;background-color: #ffffff; background-image: url(../image/sub/button_title_opend.png);background-repeat: no-repeat; background-position: 1102px center; background-size: 50px; }
+.dropTitle{height:106px;padding: 0 44px; display: flex; justify-content: space-between; align-items: center; border: 2px solid #dddddd; border-radius: 50px;line-height: 37px;font-size: 20px;   color: #999999;background-color: #ffffff; }
 .dropTitle p{ line-height: 37px; font-size: 20px; color: #666666;}
 .dropTitle p b{ margin-right: 41px;}
-.dropTitle img{opacity: 1; width: 50px; }
+.dropTitle img{opacity: 1; width: 50px;height: 50px; }
 
-.dropTitle.acvive { background-color: #5450F4; background-image: url(../image/sub/button_title_opend.png);background-repeat: no-repeat; background-position: 1102px center; background-size: 50px; }
-.dropTitle.acvive p {color: #ffffff;  }
-.dropTitle.acvive img {opacity: 0;}
+.dropTitle.active { background-color: #5450F4; background-image: url(../image/sub/button_title_opend.png);background-repeat: no-repeat; background-position: 1102px center; background-size: 50px; }
+.dropTitle.active p {color: #ffffff;  }
+.dropTitle.active img {opacity: 0;}
 /* 드롭다운 이너  */
-.learnContainer .dropInner {display: none; padding: 54px 60px; border-radius: 50px; background-color: #F7F7F7;}
+ .dropInner {display: none; padding: 54px 60px; border-radius: 50px; background-color: #F7F7F7;}
 .learnContainer .dropInner> div{ display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center;}
 .learnContainer .dropInner figure{width: 490px; display: flex;  align-items: center;margin-bottom: 57px; }
 .learnContainer .dropInner figure img{height: 140px; margin-right: 20px;}
 .learnContainer .dropInner figure p{ font-size: 24px; line-height: 31px;margin-bottom: 23px;}
 .learnContainer .dropInner figure strong{font-size: 63px;}
 
-/* 파트너 */
+/* 파트너 탭 버튼*/
 .partnerArea{ display: flex;position: relative; justify-content: center; }
 .partnerArea button{ width: 152px; height: 60px;margin:0 16px 120px 0 ;font-size: 20px; border: 2px solid #999999;cursor: pointer;  color: #999999;}
 .partnerArea button:hover{ border-color:  #5450F4;  color: #5450F4;}
@@ -171,7 +169,7 @@ li.active .tab{display: block;  }
 .tab{position:absolute ; left: 0;display: none;  }
 .tab ul li { width: 255px; margin-right: 63px;}
 
-/* 자문위원 */
+/* 자문위원 탭 버튼*/
 .partnerArea .adviceSlide ul li {width: 150px; text-align: center;}
 .partnerArea .adviceSlide ul li img{width: 150px; height: 150px; margin-bottom: 41px;}
 .partnerArea .adviceSlide ul li b{display: block; margin-bottom: 14px;}
@@ -221,36 +219,36 @@ article p{font-size: 18px; line-height: 28px; color: #666666; }
 .entryArea > div {margin-bottom: 80px; position: relative;}
 .entryArea div h2 { margin-bottom: 46px;}
 .entryArea > div > p {display: inline-block;width: 747px; font-size: 24px; line-height: 42px; color: #666666;}
-.entryArea div button{width: 230px;position: absolute; right: 0; bottom: 0;}
+.entryArea > div > button{width: 230px;position: absolute; right: 0; bottom: 0;}
 /* 링크버튼 (엔트리 작품 만들기) */
-.linkBtn{ height: 52px; padding: 0 38px;  font-size: 16px;  background-color: #92F5D9 ; border-radius: 50px;}
+.linkBtn{ height: 52px;  font-size: 16px;  background-color: #92F5D9 ; border-radius: 50px; cursor: pointer;}
 .linkBtn img{margin-right: 15px;}
-
+.linkBtn:hover{background-color: #00EDA9;;}
 /*ai&data 드롭다운 */
 .entryArea .dropDown {margin-bottom: 160px;}
 .entryArea .dropDown li:not(:first-child) {margin-top:40px}
-.entryArea .dropInner button{width: 200px;}
+.entryArea .dropDown .dropInner button{width: 200px;}
 /* 드롭다운 타이틀 */
 .entryArea .dropTitle:hover {border-color:#434DFE;color: #434DFE}
-.entryArea .dropTitle.acvive{  background-color: #434DFE; color: #ffffff;}
+.entryArea .dropTitle.active{  background-color: #434DFE;color: #ffffff; }
 /* 드롭다운1 (인공지능 활용) */
-.entryArea .dropInner {display: none; padding: 60px; border-radius: 50px;  background-color: #F7F7F7;}
-.entryArea .dropInner > div {border-bottom: 2px dashed #bbbbbb;padding-bottom: 60px; }
-.entryArea .dropInner > div p {display: inline-block; width: 791px; font-size: 20px; line-height: 36px ; color: #666666;}
-.entryArea .dropInner button{ margin-top: 18px;}
+.entryArea .dropDown .dropInner {display: none; padding: 60px; border-radius: 50px;  background-color: #F7F7F7;}
+.entryArea .dropDown .dropInner > div {border-bottom: 2px dashed #bbbbbb;padding-bottom: 60px; }
+.entryArea .dropDown .dropInner > div p {display: inline-block; width: 791px; font-size: 20px; line-height: 36px ; color: #666666;}
+.entryArea .dropDown .dropInner div > button{ margin-left: 83px;}
 
-.entryArea .dropInner figure {display: flex; justify-content: space-between;align-items: center; padding:40px; border-bottom: 2px dashed #bbbbbb;}
-.entryArea .dropInner figure strong{ display: block; font-size: 20px; line-height: 37px; }
-.entryArea .dropInner figure p{font-size: 18px; line-height: 34px; display: inline-block; width: 786px; color: #999999;} 
+.entryArea .dropDown .dropInner figure {display: flex; justify-content: space-between;align-items: center; padding:40px; border-bottom: 2px dashed #bbbbbb;}
+.entryArea .dropDown .dropInner figure strong{ display: block; font-size: 20px; line-height: 37px; }
+.entryArea .dropDown .dropInner figure p{font-size: 18px; line-height: 34px; display: inline-block; width: 786px; color: #999999;} 
 /*드롭다운2 ( 모듈학습 )*/
-.entryArea .dropInner > img{padding: 40px 0;}
-.entryArea .dropInner .moduleArea{display: flex; align-items: baseline;}
-.entryArea .dropInner .moduleArea li{width: 302px;margin-right: 80px;  }
-.entryArea .dropInner .moduleArea:nth-child(2) li:nth-of-type(2){padding: 0 24px;border-right: 2px dashed #bbbbbb;border-left: 2px dashed #bbbbbb; }
-.entryArea .dropInner .moduleArea li img{margin-bottom: 52px;}
-.entryArea .dropInner .moduleArea li b{display: block; margin-bottom: 16px;font-size: 20px;}
-.entryArea .dropInner .moduleArea li p {width: 302px;line-height: 34px; font-size: 18px;color: #999999;margin-bottom: 27px;}
-.entryArea .dropInner .moduleArea li mark {display: block; width: 265px;line-height: 22px; background: none; color: #434DFE;font-size: 12px;}
+.entryArea .dropDown .dropInner > img{padding: 40px 0;}
+.entryArea .dropDown .dropInner .moduleArea{display: flex; align-items: baseline;}
+.entryArea .dropDown .dropInner .moduleArea li{width: 302px;margin-right: 55px;  }
+.entryArea .dropDown .dropInner .moduleArea:nth-child(2) li:nth-of-type(2){padding: 0 24px;border-right: 2px dashed #bbbbbb;border-left: 2px dashed #bbbbbb; }
+.entryArea .dropDown .dropInner .moduleArea li img{margin-bottom: 52px;}
+.entryArea .dropDown .dropInner .moduleArea li b{display: block; margin-bottom: 16px;font-size: 20px;}
+.entryArea .dropDown .dropInner .moduleArea li p {width: 302px;line-height: 34px; font-size: 18px;color: #999999;margin-bottom: 27px;}
+.entryArea .dropDown .dropInner .moduleArea li mark {display: block; width: 265px;line-height: 22px; background: none; color: #434DFE;font-size: 12px;}
 
 /* 드롭다운3 (데이터 분석) */
 .enterpriseArea{height: 724px; background-color: #F7F7F7; padding: 128px 0;}
@@ -261,7 +259,7 @@ article p{font-size: 18px; line-height: 28px; color: #666666; }
 /* 기업가 정신 */
 .enterpriseArea .enterpriseBtn{position: absolute;right: 0 ;display: inline-block; margin-top: -40px;}
 .enterpriseBtn button:first-child{margin-bottom: 15px; }
-.downBtn{display: block; width: 230px; height: 52px; padding: 0 38px; align-items:center; background-color: #00EDA9; border-radius: 50px;}
+.downBtn{display: block; width: 230px; height: 52px; align-items:center; background-color: #00EDA9; border-radius: 50px; cursor: pointer;}
 .downBtn img{margin-right: 15px;}
 
 
@@ -292,10 +290,13 @@ article p{font-size: 18px; line-height: 28px; color: #666666; }
 .naverSkill .clovaArea .swiper {width: 100%;}
 .naverSkill .clovaArea ul li {width: 300px; height: 263px;padding: 30px; background-color: #ffffff;}
 
-.clovaArea ul li b{display: flex;line-height: 40px; margin-bottom: 16px; font-size: 20px;  text-align: center;}
+.clovaArea ul li b{display: flex;line-height: 40px; margin-bottom: 16px; font-size: 20px;}
 .clovaArea ul li b img {margin-right: 16px;}
-.clovaArea ul li p{font-size: 18px; line-height: 34px; color: #999999; }
-.naverSkill .clovaArea .clovaSlideul ul li .linkBtn{ width: 300px; }
+.clovaArea ul li p{font-size: 18px; line-height: 34px;margin-bottom: 16px; color: #999999; letter-spacing: -1px; }
+.naverSkill div .clovaArea li .swiper ul li {position: relative;}
+.naverSkill div .clovaArea li .swiper ul li .linkBtn{width: 300px;}
+.naverSkill div .clovaArea li .swiper ul li .linkBtn:last-child{margin-top: 16px;}
+.naverSkill div .clovaArea li .swiper ul li > .linkBtn{position: absolute; bottom: 30px;  }
 
 /* 클로버 슬라이드 버튼 */
 
@@ -352,16 +353,16 @@ article p{font-size: 18px; line-height: 28px; color: #666666; }
 .softwareContainer div .SoftWearEduArea li a small{ font-size: 18px; line-height: 18px;color: #5B57F4; }
 .softwareContainer div .SoftWearEduArea li a small img{width: 16px;margin-right: 6px; }
 .moreBtn{display: block; margin: 0 auto; cursor: pointer;}
-/* 교재 page03_03 */
-.softwareContainer .booksArea{display: flex; flex-wrap: wrap;}
-.softwareContainer .booksArea li{width: 255px; height: 406px; margin-bottom: 62px;position: relative;}
-.softwareContainer .booksArea li > img{width: 255px; margin-bottom: 14px;}
-.softwareContainer .booksArea li:not(:nth-child(4n)){margin-right: 60px;}
-.softwareContainer .booksArea li a b{display: block;  line-height: 34px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 20px;color: #000000;}
-.softwareContainer .booksArea .booksInner{opacity: 0; position: absolute;top: 0; left: 0;text-align: center;line-height: 406px; width: 255px; height: 360px; background-color: rgba(40 ,40, 40 , 80%); }
-.softwareContainer .booksArea .booksInner:hover{opacity: 1;}
-.softwareContainer .booksArea .booksInner button{cursor: pointer;} 
-.softwareContainer .booksArea .booksInner button img {width: 60px; height: 60px; }
+/* 교재 page03_04 */
+.softwareContainer div .booksArea{display: flex; flex-wrap: wrap;}
+.softwareContainer div .booksArea li{width: 255px; height: 406px; margin-bottom: 62px;position: relative;}
+.softwareContainer div .booksArea li > img{width: 255px; margin-bottom: 14px;}
+.softwareContainer div .booksArea li:not(:nth-child(4n)){margin-right: 60px;}
+.softwareContainer div .booksArea li > b{display: block;  line-height: 34px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 20px;color: #000000;}
+.softwareContainer div .booksArea .booksInner{opacity: 0; position: absolute;top: 0; left: 0;text-align: center;line-height: 406px; width: 255px; height: 360px; background-color: rgba(40 ,40, 40 , 80%); }
+.softwareContainer div .booksArea .booksInner:hover{opacity: 1;}
+.softwareContainer div .booksArea .booksInner button{cursor: pointer;} 
+.softwareContainer div .booksArea .booksInner button img {width: 60px; height: 60px; }
 
 /* page03_01_01  */
 
@@ -411,22 +412,105 @@ a.listBack:hover img { opacity: 0;}
 .programContainer .programContents li a div time{display: block; margin-bottom: 25px; font-size: 18px; color: #999999;}
 .programContainer .programContents li a div small{height: 32px;line-height: 32px; display: inline-block;text-align: center;  border-radius: 50px;}
 .programContainer .programContents li a div .deadline{width: 80px;  background-color: #F3F3F3; color: #999999;}
-.programContainer .programContents li a div .recruit{width: 70px; background-color: hsl(237, 99%, 63% , 20%) ; color: #434DFE;}
+.programContainer .programContents li a div .recruit{width: 70px; background-color: rgba(67, 77, 254, 0.2) ; color: #434DFE;}
 
+/* page04_02 프로그램 대학생 멘토 */
+hr{margin: 0;}
+.containerNav {display: flex; justify-content: space-between; margin-bottom: 30px;}
+.containerNav ul{ display: flex; width: 810px; height: 52px; border-bottom: 1px solid #999999;text-align: center; }
+.containerNav ul li {margin-right: 45px; line-height: 52px; font-size: 18px;  }
+.containerNav > div button {display: inline-block; width: 180px; height: 52px;margin-right: 10px; border-radius: 50px; background-color: #92F5D9;}
+
+.programContainer section {display: flex; margin: 60px 0 ;}
+.programContainer section h2{width: 255px; font-size: 24px; }
+.programContainer section:nth-of-type(1) h2{background-image: url(../image/sub/bg_student_mentor_intro.png); background-repeat: no-repeat;}
+
+.programContainer section > div { width: 945px;}
+.programContainer section > div strong{display: block;line-height: 30px;margin-bottom: 10px; font-size: 18px;  color: #434DFE;}
+.programContainer section > div p{line-height: 32px; font-size: 20px;}
+.programContainer section > div time{display: block; line-height: 30px; margin-bottom: 30px; font-size: 17px;}
+.programContainer section:not(:last-child) div ul li::before{content: "\2022"; color: rgb(67, 77, 254 , 50%);display: inline-block;width: 1rem;margin-left: 5px; font-weight: bold; }
+.programContainer section > div ul li{line-height: 30px; font-size: 17px; }
+
+/*.infoBox1 */
+.programContainer .infoBox01 div strong {font-size: 20px;margin-bottom: 0;}
+.programContainer .infoBox01 div p{margin-bottom: 44px; font-size: 20px; line-height: 32px;}
+.programContainer .infoBox01 div iframe{width: 700px; height: 406px;margin-bottom: 30px;}
+.programContainer .infoBox01 div > button {width: 243px; height: 52px;margin-right: 9px; display: inline-block;}
+/* .infoBox2 */
+/* .programContainer .infoBox2{}
+.programContainer .infoBox2 div time{} */
+
+/* .infoBox3 */
+.programContainer .infoBox03 div > p{margin-bottom: 10px; }
+.programContainer .infoBox03 ul:nth-of-type(1) {margin-bottom: 25px;padding-bottom:25px ; border-bottom:1px solid rgb(112, 112, 112 ,20%) ;}
+.programContainer .infoBox03 .infoItem01 {padding-bottom: 28px;margin-bottom: 24px; border-bottom:1px solid rgb(112, 112, 112 ,20%) ;}
+.programContainer .infoBox03 .infoItem01 figure{width: 400px; height: 502px;vertical-align: middle; display: inline-block; border-radius: 25px;}
+.programContainer .infoBox03 .infoItem01 figure img{ display: block; margin: 0 auto 37px;}
+.programContainer .infoBox03 .infoItem01 figure:nth-of-type(1){background-color: #EAEEFF;}
+.programContainer .infoBox03 .infoItem01 figure:nth-of-type(2){background-color: #EAF4FF;}
+.programContainer .infoBox03 .infoItem01 figure:nth-of-type(1) img{margin-top: 13px;}
+.programContainer .infoBox03 .infoItem01 figure:nth-of-type(2) img{margin-top: 32px;}
+.programContainer .infoBox03 .infoItem01 figure b{display: block; margin-left: 42px;margin-bottom: 24px; font-size: 20px;}
+.programContainer .infoBox03 .infoItem01 figure p{ margin-left: 54px; font-size: 16px;}
+
+/* infoBox04  */
+.programContainer .infoBox04 {position: relative;}
+.programContainer .infoBox04 input[type="button"]{width: 152px; height: 52px; position: absolute;top: 54px; border:none; border-radius: 50px; background-color: #434DFE; color: #ffffff;}
+.programContainer .infoBox04 .infoItem02{width: 945px; height: 226px;margin-bottom: 44px; display: flex; }
+.programContainer .infoBox04 .infoItem02 div{width: 184px;padding-top: 30px; border-radius: 25px; background-color: #F8F8F8;}
+.programContainer .infoBox04 .infoItem02 div:not(:last-child){margin-right: 6px;}
+.programContainer .infoBox04 .infoItem02 div img{display: block; margin: 16px auto;}
+.programContainer .infoBox04 .infoItem02 div b{display: block; line-height: 30px; font-size: 17px; text-align: center;}
+.programContainer .infoBox04 .infoItem02 div p{height: 50px; line-height: 25px; font-size: 17px; text-align: center; }
+
+.programContainer .infoBox04 div .boxInner ul li a{display: inline-block; text-decoration:underline; color: #434DFE;}
+.programContainer .infoBox04 div .boxInner .linkBtn {width:224px ; height: 48px; margin-bottom: 30px; }
+.programContainer .infoBox04 div .boxInner .downBtn{width: 274px; height: 48px; display: inline-block; font-size: 14px;}
+.programContainer .infoBox04 div .boxInner:not(:last-child) ul{padding-bottom: 25px; border-bottom:1px solid rgb(112, 112, 112 ,20%) ;margin-bottom: 30px;}
+
+/* infoBox05 */
+.programContainer .infoBox05 div p{margin-bottom: 22px;}
+.programContainer .infoBox05 div img{margin-right: 7px;}
+
+/* infoBox06 */
+.FAQContainer{display: flex; flex-direction: column;}
+.FAQContainer .infoTab{display: flex; }
+.FAQContainer .infoTab li {width: 90px ; font-size: 20px;margin-bottom: 24px; cursor: pointer;}
+.FAQContainer .infoTab li.active{color: #434DFE;}
+.FAQContainer .infoInner06 li div p {font-size: 18px;}
+.FAQContainer .infoInner06 > li{ display: block;}
+.FAQContainer .infoInner06 > li.active{display:none;}
+.FAQContainer .infoInner06 .dropTitle.active{background-color: #434DFE;    background-position: 847px center; }
+.FAQContainer .infoInner06 .dropTitle p{display: flex;}
+.FAQContainer .infoInner06 .dropTitle b{text-align: center;}
+.FAQContainer .infoInner06 .dropTitle:not(:first-child){margin-top: 25px;}
 
 /* page05 */
 
 .archiveTitle{height: 650px; background-color: #ECEAF8; background-image: url(../image/sub/bg_spot_archive.png);background-repeat: no-repeat; background-position: 70%;}
 .archiveTitle h2 {padding-top: 245px;}
 .archiveTitle p{width: 295px; font-size: 22px; line-height: 36px; color: #666666;}
-.newsContainer {padding-top:80px ;}
-.newsContainer .subMenu{width: 386px;}
-.newsContainer .subMenu li{width: 118px;}
 
-.newsContainer > div figure{width: 1200px; height: 376px; margin-bottom: 73px;}
-.newsContainer > div figure img::after{content: ''; display: block; clear: both; visibility: hidden;}
-.newsContainer > div figure img{float: left;; width: 580px; height: 376px;margin-right: 40px;}
-.newsContainer > div figure mark {display: block; background: none; margin-bottom:25px ; color: #434DFE; font-size: 20px; }
-.newsContainer > div figure figcaption{ font-size: 20px; margin-bottom: 25px;}
-.newsContainer > div figure time{display: block;margin-bottom: 25px; color: #999999;}
-.newsContainer > div figure p{width: 580px; height: 233px; font-size: 18px; line-height: 34px; overflow: hidden; text-overflow: ellipsis; }
+.archiveContainer {padding:80px 0 160px 0;}
+.archiveContainer .subMenu{width: 386px;}
+.archiveContainer .subMenu li{width: 118px;}
+.archiveContainer > div figure{width: 1200px; height: 376px; margin-bottom: 73px;}
+.archiveContainer > div figure img::after{content: ''; display: block; clear: both; visibility: hidden;}
+.archiveContainer > div figure img{float: left;; width: 580px; height: 376px;margin-right: 40px;}
+.archiveContainer > div figure mark {display: block; background: none; margin-bottom:25px ; color: #434DFE; font-size: 20px; }
+.archiveContainer > div figure figcaption{ font-size: 20px; margin-bottom: 25px;}
+.archiveContainer > div figure time{display: block;margin-bottom: 25px; color: #999999;}
+.archiveContainer > div figure p{width: 580px; height: 233px; font-size: 18px; line-height: 34px; overflow: hidden; text-overflow: ellipsis; }
+
+.archiveArea {display: flex; flex-wrap: wrap;}
+.archiveArea li {width: 360px; height: 375px;margin-bottom: 53px; position: relative;}
+.archiveArea li:not(:nth-child(3n)){margin-right: 60px;}
+.archiveArea li a {width: 100%; height: 100%;}
+.archiveArea li a img{width: 360px; height: 233px;margin-bottom: 22px;}
+.archiveArea li a mark{display: block; background: none; font-size: 20px; color: #434DFE;}
+.archiveArea li a b{display: block; line-height: 32px; font-size: 20px ;}
+.archiveArea li a time{line-height: 32px; position: absolute;bottom: 0;font-size: 18px; color: #999999;}
+
+
+

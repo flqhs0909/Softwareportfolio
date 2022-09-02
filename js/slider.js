@@ -60,11 +60,11 @@ $(document).ready(function(){
     // 드롭다운
     $('.dropTitle').click(function(){
       $(this).next(".dropInner").stop().slideToggle(300);
-      $(this).toggleClass('acvive').siblings().removeClass('active');
+      $(this).toggleClass('active').siblings().removeClass('active');
       $(this).next('.dropInner').siblings('.dropInner').slideUp(300);
   });
     
-  // 알아보기 파트너 
+  // page01  파트너 스와이프
   var swiper = new Swiper(".partnerSlide", {
     slidesPerView: 'auto',
     spaceBetween: 60,
@@ -118,12 +118,30 @@ $(document).ready(function(){
       },
 
     });
-
+// page05 아카이브 탭 
     $(".clovaArea > li > button").click(function(){
       $(this).parent().addClass("active") 
         .siblings() 
         .removeClass("active")
       return false;
     });
+
+    // $(".FAQArea > li > mark ").click(function(){
+    //   $(this).parent().addClass("active") 
+    //     .siblings() 
+    //     .removeClass("active")
+    //   return false;
+    // });
+
+
+    $('.infoTab > li').click(function(){
+      $('.infoTab > li').removeClass('active');
+      $(this).addClass('active');
+
+      $('.infoInner06 > li').removeClass('active');
+      $('.infoInner06 > li').eq($(this).index()).addClass('active');
+  })
+
+
 
 });
