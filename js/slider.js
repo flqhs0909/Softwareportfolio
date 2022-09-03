@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   // 메인 상단 슬라이드
-    var swiper = new Swiper(".mainSlide1", {
+    var swiper = new Swiper(".mainSlide01", {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -82,14 +82,22 @@ $(document).ready(function(){
     },
   });
     // learn페이지 탭버튼 (협력기관 , 자문위원)
-    $(".partnerArea > li > button").click(function(){
-      $(this).parent().addClass("active") 
-        .siblings() 
-        .removeClass("active")
-      return false;
-    });
+    // $(".partnerArea > li > button").click(function(){
+    //   $(this).parent().addClass("active") 
+    //     .siblings() 
+    //     .removeClass("active")
+    //   return false;
+    // });
+    // page01 탭버튼 (협력기관 , 자문위원)
+    $('.tabMenu > li ').click(function(){
+      $('.tabMenu > li ').removeClass('active')
+      $(this).addClass('active')
+      $('.tabInner > li').removeClass("active")
+      $('.tabInner > li').eq($(this).index()).addClass('active')
 
-    //AI & DATA 페이지  
+    })
+
+    //page02 AI & DATA 페이지  
     var swiper = new Swiper(".boxSlide", {
       slidesPerView: 'auto',
       spaceBetween: 60,
@@ -99,7 +107,9 @@ $(document).ready(function(){
       },
 
     });
-    // 네이버 기술 
+
+
+    // 클로바 슬라이드 
     var swiper = new Swiper(".clovaSlide", {
       slidesPerView: 'auto',
       spaceBetween: 60,
@@ -109,6 +119,7 @@ $(document).ready(function(){
       },
 
     });
+    // 네이버 랩스 슬라이드
     var swiper = new Swiper(".labsSlide", {
       slidesPerView: 'auto',
       spaceBetween: 60,

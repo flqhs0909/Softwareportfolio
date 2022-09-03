@@ -2,61 +2,53 @@
 @font-face{src:url(../fonts/NanumSquareRoundB.ttf) format('truetype'); font-family:"NanumSquareRoundB"; font-style: normal;}
 @font-face{src:url(../fonts/NanumSquareRoundEB.ttf) format('truetype'); font-family:"NanumSquareRoundEB"; font-style: normal;}
 @font-face{src: url(../fonts/NanumSquareRoundOTFB.otf) format('opentype'); font-family: 'NanumSquareRoundOTFB'; font-style: normal;}
+/*** NanumSquareRound  B ***/
+.linkBtn,
+/* index */
+.mainSlide01 .mainSlideBg01 p, 
+.swiper .swiper-wrapper .mainSlideBg02 div b ,.swiper .swiper-wrapper .mainSlideBg02 div mark ,.swiper .swiper-wrapper .mainSlideBg02 div p,
+/* page01 */
+.learnContainer ,
+/*page02_01  */
+.aiDataTitle div p, .aiDataContainer, .entryArea , .enterpriseArea,.naverArea,.webtoonArea p,
+/* page03_01, -06 */
+.softwareTitle,.softwareContainer,
+.subpageInner, 
+* {font-family:"NanumSquareRoundB"}
 
-/* NanumSquareRound  EB */
-/* 알아보기 페이지1 */
-h2,
-header> div > nav ul li, .loginBtn,  .login p , .login ul li a b ,.swiper-slide b ,
-.swiper .swiper-wrapper .mainSlideBg2 > div em , .partnerArea button
-.swiper .swiper-wrapper .mainSlideBg2 > div mark ,#login p , #login ul li a b , .readmore,
-
-/* ai&data 페이지2*/
-.enterpriseArea .boxSlide ul li h3, .linkbtn ,
+/*** NanumSquareRound  EB ***/
+h2,header> div > nav ul li, .loginBtn,  .login p ,.login ul li a b ,.swiper-slide b ,
+/* index  */
+.swiper .swiper-wrapper .mainSlideBg2 div mark,
+/*page02_01  */
+.aiDataContainer article h2 , .entryArea h2 ,  .linkbtn ,
 /* 소프트웨어 페이지3 */
 .subpageInner .relation > b,
 .subpageInner .relation ul li a b,
 
 /* 프로그램 */
 .programContainer .programContents li 
+/* page04_02 */
+
+
 {font-family:"NanumSquareRoundEB";}
 
-/*NanumSquareRound  B*/
-button, .login h2 , .subMenu,
-.mainSlideBg1 p , .swiper .swiper-wrapper .mainSlideBg2 div p, main .storyArea , main section p , 
-.contentSlide02 .swiper-slide mark , .swiper .swiper-wrapper .mainSlideBg2 button,
-footer .width1200 div b ,main .educationArea .contentSlide01 .swiper-wrapper .swiper-slide small,
 
-/* 알아보기page01 */
-.learnContainer > div p,
-.learnContainer .dropDown .dropInner figure strong , .dropDown .dropInner figure strong ,.learnContainer .dropDown li .dropTitle,
-.learnContainer .dropDown li .dropInner figure p,
 
-/* ai& data page02 */
-.aiDataTitle p , article p ,.entryArea p ,.entryArea .dropTitle, .entryArea .dropInner figure strong ,.entryArea .dropInner > div b,
-.entryArea .dropInner .moduleArea li b, .enterpriseArea div p , .enterpriseArea .boxSlide ul li .activityInner h4 , .enterpriseArea .boxSlide ul li .activityInner p
-,.naverSkill div p,.webtoon p ,
 
-/* 소프트웨어 page03 */
-.softwareTitle p ,.softwareContainer div .foundationArea li, .subpageInner .relation ul li a p ,
-.subpageInner div section div b ,.subpageInner div section div p , .subpageInner div section div mark , .softwareTitle p ,
-.softwareContainer div .booksArea li > b , a.listBack
-/* 프로그램 page04 */
-,  .programTitle p, .programContainer,
-/* 아카이브 page05 */
-.archiveTitle p ,.newsContainer > div figure p ,.archiveArea li
-{font-family:"NanumSquareRoundB"} 
-
-/* NanumSquareRound  R */
+/*** NanumSquareRound  R ***/
  footer .width1200 div address p , footer div small ,footer .width1200 p ,footer ul ,footer .width1200 div a,
  /* ai & data */
  article mark ,.entryArea .dropInner .moduleArea li mark ,
  /* pagr02_02 */
  .programContainer .infoBox03 .infoItem01 figure p ,.programContainer section > div ul li
  
- 
  {font-family: "NanumSquareRoundR";}
 
-
+/* **NanumSquareRoundOTFB ***/
+/* page02_01 */
+ article p 
+ {font-family:"NanumSquareRoundOTFB";}
 
 
 
@@ -84,6 +76,7 @@ header.blackBg nav ul li a {color: #181F41}
 header.blackBg input[type="button"]{width: 100px; height: 48px; font-size: 18px;cursor: pointer;  border: none;color: #434DFE; background: none; background-image:url(../image/main/button_login_black.png) ;background-repeat: no-repeat; background-size:cover; }
 header.blackBg > div nav ul li.active{border-bottom:2px solid #ffffff; z-index: 1;}
 /* header.blackBg.whiteBg nav ul li.active {border-bottom: 2px solid #00EDA9; } */
+
 
 /* footer */
 footer{display: flex; padding: 60px 0;  background-color: #F7F7F7;}
