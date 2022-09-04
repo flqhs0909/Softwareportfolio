@@ -30,30 +30,39 @@ button{background: none; border: none;}
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{width: 62px; bottom: 80px; left: 360px;}
 
 
-.mainSlide01{width: 100%; height: 850px;}
+.mainSlide01{width: 100%; height: 850px; position: relative;}
 /* index 슬라이드01  */
 .swiper .swiper-wrapper .mainSlideBg01{background-color: #3D46FF; background-image: url(../image/main/Frame2.png); background-repeat: no-repeat;  background-position: center; } 
 .mainSlide01 .mainSlideBg01 > div {padding-top: 245px;}
 .mainSlide01 .mainSlideBg01 h2{margin-bottom: 60px;}
 .mainSlide01 .mainSlideBg01 p{width: 415px; font-size: 22px; line-height: 36px; color: #ffffff;}
-.mainSlide01 .mainSlideBg01 .width1200 .object img {position: absolute; }
-.mainSlide01 .mainSlideBg01 .width1200 .object img:nth-of-type(1) {height: 261px; left: 67%; top: 330px; animation: mainRobot 1s infinite alternate; }
-.mainSlide01 .mainSlideBg01 .width1200 .object img:nth-of-type(2) {height: 135px; left: 57%; top: 175px; animation: subRobot 1s infinite alternate; }/*animation-duration: 1s;animation-iteration-count: infinite; animation-direction:alternate;*/
-.mainSlide01 .mainSlideBg01 .width1200 .object img:nth-of-type(3) {height: 66px; left: 80%; top: 150px; animation: inherit; animation-direction: reverse; }
-.mainSlide01 .mainSlideBg01 .width1200 .object img:nth-of-type(4) {height: 147px; left: 50%; top: 507px; animation: circleObj 3s infinite linear;}
-.mainSlide01 .mainSlideBg01 .width1200 .object img:nth-of-type(5) {height: 359px; right: 33px; top: 555px; }
-/* .mainSlideBg1 .width1200 .object >div{ transform-origin: 50% 40px ; animation: circleObj 3s infinite linear;} */
+
+.mainSlide01 .mainSlideBg01 .object > div{position: absolute;}
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1){ left: 67%;top: 330px;animation: mainRobot 1s infinite alternate; }
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1) img{height: 261px;  }
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2){left: 57%; top: 175px;animation: subRobot 1s infinite alternate;}
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2) img{height: 135px; }
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3){left: 80%;top: 150px;transform-origin: 50% 40px ; animation: circleObj 3s infinite linear;}
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3) img{ height: 66px;  animation: inherit; animation-direction: reverse;}
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4){left: 50%; top: 507px;transform-origin:50% 83PX; animation: circleObj2 3s infinite linear;}
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4) img{height: 147px;animation: inherit; animation-direction: reverse;}
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(5){right: 33px; top: 555px;transform-origin: 50% 189px ; animation: circleObj 3s infinite linear;}
+.mainSlide01 .mainSlideBg01 .object > div:nth-of-type(5) img{height: 359px;animation: inherit; animation-direction: reverse; }
 
 @keyframes mainRobot{
-    0%{ top :330px}
+    0%{top :330px}
     100%{top :335px}
 }
+
 @keyframes subRobot{
     0%{ top :135px}
     100%{top : 145px}
 }
 @keyframes circleObj {
     to {transform: rotate(360deg);}
+}
+@keyframes circleObj2 {
+    to {transform: rotate(-360deg);}
 }
 /* @keyframes circleObj2{
     0%{top:507px ;left: 50%;}
@@ -83,6 +92,7 @@ main{ background: url(../image/main/Frame1.png) , linear-gradient(to bottom,#00E
 main .mainBox01{padding-top: 260px; margin-bottom: 330px;}
 main .mainBox01 > h2 {width: 283px; line-height:50px;margin-bottom:31px; font-size: 42px; }
 main .mainBox01 > p {width:275px ;line-height: 31px; margin-bottom: 73px;font-size: 20px;  color: #666666; }
+main .mainBox01 > span{ line-height: 31px; margin-bottom: 73px;font-size: 20px; color: #666666;  }
 
     /* 링크버튼 */
 .linkBtn{ height: 52px;  font-size: 16px;  background-color: #92F5D9 ; border-radius: 50px; cursor: pointer;}
@@ -224,19 +234,19 @@ main .storyBtn{ width: 105px; height: 48px; display: flex; justify-content: cent
 .aiDataContainer{display: flex;justify-content: space-between; flex-wrap: wrap; padding-top: 80px;}
 .aiDataContainer article mark{display:inline-block;line-height: 31px; margin-bottom: 26px;  font-size: 20px;background:none; color: #434DFE;}
 .aiDataContainer article{ border-radius: 20px;height: 560px;background-repeat: no-repeat; }
-.aiDataContainer article p{font-size: 18px; line-height: 28px; color: #666666; }
+.aiDataContainer article p , .aiDataContainer article span{font-size: 18px; line-height: 28px; color: #666666; }
 
 .contentBox01{position: relative; width: 1200px; margin-bottom: 40px; background-image: url(../image/sub/content01.png);background-color: #F8F8F8;}
-.contentBox01 > div{ position: absolute;top: 160px; left: 683px;}
+.contentBox01 > a{ position: absolute;top: 160px; left: 683px;}
 .contentBox01 p{width:322px;}
 
 .contentBox02 , .contentBox03{ width: 580px;height: 560px; position: relative; margin-bottom: 38px; }
-.contentBox02 > div , .contentBox03 > div {position: absolute; left: 60px;top: 295px ;}
+.contentBox02 > a , .contentBox03 > a {position: absolute; left: 60px;top: 295px ;}
 .contentBox02 {background-image: url(../image/sub/content02.png);background-position: right top; background-color: #D6E8FF;}
 .contentBox03{ background-image: url(../image/sub/content03.png);background-position: 0 50px; background-color: #EFF0FF;}
 
 .contentBox04{position: relative; width: 1200px; margin-bottom: 125px; background-image: url(../image/sub/content04.png); background-color: #C5F0F9;}
-.contentBox04 div {position: absolute; top: 190px; left: 60px;}
+.contentBox04 a {position: absolute; top: 190px; left: 60px;}
 
 /* entryArea 엔트리로 배우는 AI & DATA*/
 .entryArea > div {margin-bottom: 74px; position: relative;}
@@ -267,12 +277,11 @@ main .storyBtn{ width: 105px; height: 48px; display: flex; justify-content: cent
 .entryArea .dropDown .dropInner .moduleArea li img{margin-bottom: 52px;}
 .entryArea .dropDown .dropInner .moduleArea li b{display: block; margin-bottom: 16px;font-size: 20px;}
 .entryArea .dropDown .dropInner .moduleArea li p {width: 302px;line-height: 34px; font-size: 18px;color: #999999;margin-bottom: 27px;}
-.entryArea .dropDown .dropInner .moduleArea li mark {display: block; width: 265px;line-height: 22px; background: none; color: #434DFE;font-size: 12px;}
+.entryArea .dropDown .dropInner .moduleArea li mark {display: block; line-height: 22px; background: none; color: #434DFE;font-size: 12px;}
 
     /* 드롭다운3 (데이터 분석) */
 .enterpriseArea div p{ display: inline-block; width: 741px; margin-bottom: 90px; font-size: 24px; line-height: 42px; color: #666666;}
 .enterpriseArea div p:last-child{margin-bottom: 90px;}
-
 /* 기업가 정신 */
 .enterpriseArea{ height: 980px; background-color: #F7F7F7;}
 .enterpriseArea > div{position: relative; padding: 128px 0 168px 0;}
@@ -502,15 +511,13 @@ hr{margin: 0;}
 .programContainer article p{width: 405px; font-size: 32px; line-height: 42px; color: #000000; }
 .programContainer article ins{text-decoration:underline 3px #00EDA9; }
 .programContainer article mark{display: block; font-size: 32px; line-height: 42px; color: #434DFE;}
-.programContainer article button{width: 224px; height: 52px;border-radius: 50px; background-color: #434DFE; color: #ffffff;  } */
+.programContainer article button{width: 224px; height: 52px;border-radius: 50px; background-color: #434DFE; color: #ffffff;  } 
 
 
-/**** page05-01 ***/
-
-.archiveTitle {height: 650px;  background-image: url(../image/sub/bg_spot_archive.png); background-repeat: no-repeat; background-position: 70%;background-color: #ECEAF8;}
-.archiveTitle > h2 {padding-top: 245px;}
-.archiveTitle > p{width: 295px; font-size: 22px; line-height: 36px; color: #666666;}
-
+/**** page05-01 ****/
+.archiveTitle{height: 650px; background-color: #ECEAF8; background-image: url(../image/sub/bg_spot_archive.png); background-repeat: no-repeat; background-position: 70%;}
+.archiveTitle h2{padding-top: 245px;line-height: 74px;margin-bottom: 33px; font-size: 64px;}
+.archiveTitle p{width: 295px; font-size: 22px; line-height: 36px; color: #666666;}
 
 .archiveContainer {padding:80px 0 160px 0;}
 .archiveContainer .subMenu{width: 386px;}

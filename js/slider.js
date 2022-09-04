@@ -41,9 +41,9 @@ $(document).ready(function(){
     // 메뉴 스크롤 했을 때 배경이미지 
     $(document).on('scroll',function(){
       if($(window).scrollTop()){
-        $('.whiteBg').addClass('active');
+        $('.whiteBg ').addClass('active');
       }else{
-        $('.whiteBg').removeClass('active');
+        $('.whiteBg ').removeClass('active');
       }
 
     });
@@ -95,7 +95,7 @@ $(document).ready(function(){
       $('.tabInner > li').removeClass("active")
       $('.tabInner > li').eq($(this).index()).addClass('active')
 
-    })
+    });
 
     //page02 AI & DATA 페이지  
     var swiper = new Swiper(".boxSlide", {
@@ -129,7 +129,16 @@ $(document).ready(function(){
       },
 
     });
-// page05 아카이브 탭 
+    // FAQ 
+      $('.infoTab > li').click(function(){
+        $('.infoTab > li').removeClass('active');
+        $(this).addClass('active');
+  
+        $('.infoInner06 > li').removeClass('active');
+        $('.infoInner06 > li').eq($(this).index()).addClass('active');
+    });
+
+    // page05 아카이브 탭 
     $(".clovaArea > li > button").click(function(){
       $(this).parent().addClass("active") 
         .siblings() 
@@ -144,14 +153,6 @@ $(document).ready(function(){
     //   return false;
     // });
 
-
-    $('.infoTab > li').click(function(){
-      $('.infoTab > li').removeClass('active');
-      $(this).addClass('active');
-
-      $('.infoInner06 > li').removeClass('active');
-      $('.infoInner06 > li').eq($(this).index()).addClass('active');
-  })
 
 
 
