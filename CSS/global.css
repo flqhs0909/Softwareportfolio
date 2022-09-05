@@ -12,8 +12,7 @@ main,.mainSlide01 .mainSlideBg01 p,
 /*page02_01  */
 .aiDataTitle div p, .aiDataContainer, .entryArea , .enterpriseArea,.naverArea,.webtoonArea p,
 /* page03_01, -06 */
-.softwareTitle,.softwareContainer,
-.subpageInner, 
+.softwareTitle,.softwareContainer, .subpageInner, 
 /* page05 */
 .archiveTitle p,.archiveContainer
 * {font-family:"NanumSquareRoundB"}
@@ -23,7 +22,7 @@ h2,header> div > nav ul li, .loginBtn,  .login p ,.login ul li a b ,.swiper-slid
 /* index  */
 .swiper .swiper-wrapper .mainSlideBg2 div mark,
 /*page02_01  */
-.aiDataContainer article h2 , .entryArea h2 ,  .linkbtn ,
+.aiDataContainer article h2 , .entryArea h2 , .linkbtn ,
 /*page03 소프트웨어 */
 .subpageInner .relation > b,
 .subpageInner .relation ul li a b,
