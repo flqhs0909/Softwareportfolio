@@ -352,21 +352,26 @@ main .storyBtn{ width: 105px; height: 48px; display: flex; justify-content: cent
 .softwareContainer div .booksArea .booksInner button{cursor: pointer;} 
 .softwareContainer div .booksArea .booksInner button img {width: 60px; height: 60px; }
 
-/* page03_01_01  */
+/* page03_01 ~ 02 */
 .subpageInner{padding: 197px 0; position: relative;}
 .subpageInner div > section { display: inline-block; width: 790px;margin-right: 60px;}
 .subpageInner div section iframe{width: 780px; height: 440px; margin-bottom:44px ;}
 .subpageInner div section div:nth-of-type(1) {margin-bottom: 30px; position: relative; border-bottom: 2px dashed #bbbbbb;}
 .subpageInner div section div h2{ font-size: 42px; margin-bottom: 23px;}
-.subpageInner div section div b{display: inline-block;padding-bottom: 30px; font-size: 24px; line-height: 42px; color: #666666;}
+.subpageInner div section div b{display: inline-block;padding-bottom: 30px;line-height: 42px; font-size: 24px; color: #666666; }
 .subpageInner div section div a{display: inline-block; position: absolute; top: 0; right: 0;}
 
-.subpageInner div section div p{font-size: 18px;line-height: 34px;margin-bottom: 50px; color: #999999;}
-.subpageInner div section div mark{display: block; line-height: 34px;margin-bottom: 66px; font-size: 18px ;color: #666666; background: none;}
+.subpageInner div section div:nth-of-type(2) { color: #999999;font-size: 18px;line-height: 34px;}
+.subpageInner div section div p {margin-bottom: 50px; }
+.subpageInner div section div > ul li:not(:nth-of-type(1)){margin-bottom: 52px;}
+.subpageInner div section div mark{display: block; line-height: 34px;margin-bottom: 66px; font-size: 18px ;color: #999999; background: none;}
 a.listBack { color: #000000;font-size: 14px ;line-height: 34px} 
 a.listBack img {line-height: 34px;}
 a.listBack:hover { background-image: url(../image/sub/ico_arrow_color.svg);background-repeat: no-repeat; color: #5B57F4; background-position:left center;}
 a.listBack:hover img { opacity: 0;}
+/* page03 _02 */
+ 
+
     /* 연관동영상 */
 .subpageInner .relation{display:inline-block; padding: 30px ; position: absolute;border: 1px solid #dddddd;  overflow-y: scroll;text-align: start; width: 300px; height: 380px;}
 .subpageInner .relation > b{display: inline-block; font-size: 24px; margin-bottom: 30px;}
@@ -377,8 +382,12 @@ a.listBack:hover img { opacity: 0;}
 .subpageInner .relation ul li a b ,.subpageInner .relation ul li a p{ display: block; margin-bottom: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .subpageInner .relation ul li a b{font-size: 20px; display: block;  color: #000000;}
 .subpageInner .relation ul li a p { color: #666666;}
+.subpageInner .relation ul li small {color: #434DFE;}
 .subpageInner .relation ul li small img{width: 16px;height: 16px;margin-right: 5px;}
 
+.subpageInner button{position: absolute; width: 360px;}
+.subpageInner button:nth-of-type(1){top: 677px;}
+.subpageInner button:nth-of-type(2){top: 745px;}
 /*  page 04_01프로그램  페이지 */
 .programTitle {height: 246px;padding: 202px 0; background-color: #434DFE;color: #ffffff; background-image: url(../image/sub/bg_spot_program.png); background-position: 80%; background-repeat: no-repeat;}
 .programTitle h2 {width: 424px; line-height: 74px; margin-bottom: 50px; font-size: 64px;}
