@@ -44,10 +44,11 @@ h2,header> div > nav ul li, .loginBtn,  .login p ,.login ul li a b ,.swiper-slid
 
 /* header 헤더 */
 header{width:100%; padding:15px 0; position:fixed; z-index:99;}
-header > div { display:flex; justify-content:space-around;}
+header div .mobileNavMenu{display: none;}
+header > div { display:flex; justify-content:space-evenly;}
+header > div h1{display: inline-block;}
 header > div nav {height:50px; line-height:50px;} 
 header > div nav ul li.active{ border-bottom:2px solid #00EDA9;}
-
 header ul{display:flex; width:540px; justify-content:space-between; font-size:18px; }
 header ul li a{font-size:18px; color:#ffffff; text-decoration:none;}
 header input[type="button"]{width:100px;height:48px; font-size:18px; cursor:pointer; border:none; color:#00EDA9; background:none; background-image:url(../image/main/button_login_white.png); background-repeat: no-repeat; background-size:cover; }
@@ -61,18 +62,13 @@ header.whiteBg.active nav ul li.active:nth-of-type(3) ,header.whiteBg.active nav
 header.whiteBg.active input[type="button"]{width:100px; height:48px; font-size:18px; cursor: pointer; border: none; color:#434DFE; background:none; background-image:url(../image/main/button_login_black.png); background-repeat:no-repeat; background-size:cover; }
 
 /* header Black */
-header.blackBg h1 img{opacity:0;}
+header.blackBg h1 img{opacity:0; }
 header.blackBg h1{ width:162px; height:52px; background-image:url(../image/main/logo_black.svg); cursor:pointer;}
 header.blackBg nav ul li a {color:#181F41;}
 header.blackBg input[type="button"]{width:100px; height:48px; font-size:18px; cursor: pointer; border: none; color:#434DFE; background:none; background-image:url(../image/main/button_login_black.png); background-repeat:no-repeat; background-size:cover; }
 header.blackBg > div nav ul li.active{border-bottom:2px solid #ffffff; }
 
-@media screen and (max-width:780px)and (min-width:480px){
-   
-}
-@media screen and(max-width:480px){ 
-    header > div nav {display: none;} 
-}
+
 /* footer */
 footer{padding: 60px 0; background-color: #F7F7F7;}
 footer .width1200 > div { display: flex;justify-content: space-between;}
@@ -87,3 +83,24 @@ footer ul li{ font-size: 14px;margin-right: 18px; }
 footer .social{justify-content: right; }
 footer .social li{margin-right: 10px; }
 
+@media screen and (max-width:813px){
+    header > div{display:block; margin: 0 30px;}
+    header nav{display: inline-block;}
+    header nav ul {display: none;}
+    header nav ul li{padding-right: 50px;}
+    header input[type="button"]{display: none;}
+    header.whiteBg.active nav ul li a{color: #ffffff;}
+    header.whiteBg.active button{width: 50px; background-image:url(../image/main/menu_black_24dp.svg);background-repeat: no-repeat; background-size: 50px; }
+    header.whiteBg.active .mobileNavMenu img {opacity: 0; cursor: pointer;}
+    header.whiteBg.active .mobileNavMenu.active b{background-image:url(../image/main/close_black_24dp.svg);background-repeat: no-repeat; background-size: 50px;}
+
+    header > div .mobileNavMenu{ display:inline-block;width: 50px; position: absolute; right: 30px; top: 15px; cursor: pointer;}
+    header > div .mobileNavMenu button{position: absolute;cursor: pointer;}
+    header > div .mobileNavMenu button:nth-of-type(2){opacity: 0;}
+    header > div .mobileNavMenu img{ width: 50px; height: 50px; line-height: 50px;}
+    header > div .mobileNavMenu.active{opacity: 1;width:250px; height: 100vh; top: 0; right: 0; background-color: #434DFE;}
+    header > div .mobileNavMenu.active button:nth-of-type(1){opacity: 0;}
+    header > div .mobileNavMenu.active button:nth-of-type(2){opacity: 1; right: 28px ; top: 24px;}
+    header > div .mobileNavMenu.active + nav ul {display: block; width: auto; position: absolute; right: 0;top: 150px; flex-direction: column; align-items: flex-end;}
+    header > div .mobileNavMenu.active + input[type="button"]{display: block; }
+}

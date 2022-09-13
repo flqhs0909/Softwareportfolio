@@ -8,15 +8,21 @@
     <!-- swiper CSS  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel='stylesheet' type='text/css' media='screen' href='./CSS/import.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
+
 </head>
 <body>
     <header class="whiteBg">
         <div>
             <h1><a href="index.html"><img src="image/main/logo.svg" alt="메인로고"></a></h1>
+            <div class="mobileNavMenu">
+                <button><img  src="./image/main/menu_white_24dp.svg" alt=""></button>
+                <button><img src="./image/main/close_white_24dp.svg" alt=""></button>
+            </div>
             <nav>
                 <ul>
                     <li><a href="page01.html">알아보기</a></li>
@@ -49,9 +55,11 @@
         <ul class="swiper-wrapper">
             <!-- 슬라이드 1  -->
             <li class="swiper-slide mainSlideBg01">
-                <div class="width1200">
+                <div class="width1200 width327">
                     <h2><img src="./image/main/bg_main_spot_title.svg" alt="메인타이틀"></h2>
-                    <p>인공지능과 데이터의 시대. 아이들에게 필요한 미래 교육에 네이버의 경험과 기술을 담습니다.</p>
+                    <p>인공지능과 데이터의 시대.
+                        아이들에게 필요한 미래 교육에
+                        네이버의 경험과 기술을 담습니다.</p>
                     <div class="object">
                         <div><img src="./image/main/bg_main_spot_slide01_robot_main.png" alt="메인로봇"></div>
                         <div><img src="./image/main/bg_main_spot_slide01_robot_sub.png" alt="서브로봇"></div>
@@ -63,7 +71,7 @@
             </li>
             <!-- 슬라이드 2 -->
             <li class="swiper-slide mainSlideBg02 ">
-                <div class=" width1200">
+                <div class=" width1200 ">
                     <b>소프트웨어야 놀자</b>
                     <mark>온라인 릴레이 AI수업</mark>
                     <p>무더운 여름, 방학인데 집에서 뭐하지?<br>오히려 좋아! 대학생 멘토와 함께하는 AI수업</p>
@@ -81,7 +89,7 @@
         <!-- 콘텐츠 시작 -->
     <main>
         <!--  main Box01 -->
-        <section class="width1200 mainBox01 ">
+        <section class="width1200 width327 mainBox01 ">
             <h2> 왜 AI와 DATA를 교육 하는가</h2>
             <span>인공지능과 데이터의 시대.</span>
             <p>아이들에게 필요한 미래 교육에<br/> 네이버의 경험과 기술을 담습니다.</p>
@@ -89,8 +97,13 @@
         </section>
         <!-- Box02 -->
         <section class="width1200 mainBox02 ">    
-            <h2> Hello AI World </h2>
-            <p>나의 삶과 세상에<br> 많은 변화를 만들어가고 있는 인공지능 기술. 인공지능(AI)은 정확히 무엇일까요?</p>
+            <h2>Hello
+                AI World 
+            </h2>
+            <p>나의 삶과 세상에 <br/> 많은
+                변화를 만들어가고 있는 인공지능 기술.
+                인공지능(AI)은 정확히 무엇일까요?
+            </p>
             <a href="#" class="linkBtn" >자세히 보기</a>
             <video autoplay="autoplay" muted="muted" src="image/main/mainvideo.mp4"></video>
         </section>
@@ -158,12 +171,15 @@
                 <div class="swiper-button-next eduNext"><img src="./image/main/button_arrow_right_on.svg" alt="eduNext"></div>
                 <div class="swiper-button-prev eduPrev"><img src="./image/main/button_arrow_left_on.svg" alt="eduPrev"></div>
             </div>
+            <button><a href="#" class="linkBtn mobileBtn">자세히 보기</a></button>
         </section>
         <!-- Box04 -->
         <section class="mainBox04">
             <div class="width1200 storyArea">
                 <h2>뉴스&스토리</h2>
-                <p>네이버와 커네트재단은 아이들이 자유롭게 더 큰 꿈을 꿀 수 있도록 다양한 소프트웨어 교육을 진행합니다. </p>
+                <p>네이버와 커네트재단은 아이들이 자유롭게
+                    더 큰 꿈을 꿀 수 있도록<br/>
+                    다양한 소프트웨어 교육을 진행합니다. </p>
                 <a href="#" class="linkBtn">자세히 보기</a>
             </div>
             <div class="swiper contentSlide02">
@@ -214,6 +230,7 @@
                 <div class="swiper-button-next storyNext "><img src="./image/main/button_arrow_right_on.svg"  alt="Next"></div>
                 <div class="swiper-button-prev storyPrev"><img src="./image/main/button_arrow_left_on.svg" alt="Previous"></div>
             </div>
+            <button><a href="#" class="linkBtn mobileBtn">자세히 보기</a></button>
         </section>
     </main>
     <footer>

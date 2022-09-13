@@ -38,7 +38,7 @@ $(document).ready(function(){
       $('.login').removeClass("active")
     });
 
-    // 메뉴 스크롤 했을 때 배경이미지 
+    // 메뉴 스크롤 했을 때 배경
     $(document).on('scroll',function(){
       if($(window).scrollTop()){
         $('.whiteBg ').addClass('active');
@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 
   
-// 알아보기 드롭다운 
+// 알아보기 드롭다운 case01
     // $('.dropTitle').click(function(){
     //   $(this).next().slideToggle(300);
     //   $('dropTitle').not(this).next().slideUP(300);
@@ -81,14 +81,17 @@ $(document).ready(function(){
       prevEl: ".swiper-button-prev.advicePrev",
     },
   });
-    // learn페이지 탭버튼 (협력기관 , 자문위원)
+  
+    // page01 탭버튼 (협력기관 , 자문위원)case01
     // $(".partnerArea > li > button").click(function(){
     //   $(this).parent().addClass("active") 
     //     .siblings() 
     //     .removeClass("active")
     //   return false;
     // });
-    // page01 탭버튼 (협력기관 , 자문위원)
+
+
+    // page01 탭버튼 (협력기관 , 자문위원)type2
     $('.tabMenu > li ').click(function(){
       $('.tabMenu > li ').removeClass('active')
       $(this).addClass('active')
@@ -146,14 +149,37 @@ $(document).ready(function(){
       return false;
     });
 
-    // $(".FAQArea > li > mark ").click(function(){
-    //   $(this).parent().addClass("active") 
-    //     .siblings() 
-    //     .removeClass("active")
-    //   return false;
-    // });
+
+    //width1200 nav메뉴 버튼
+    $('.mobileNavMenu').click(function(){
+      $('.mobileNavMenu').toggleClass('active')
+ 
+
+      
+    });
+    if($('.mobileNavMenu').hasClass('active')){
+      $(this).parents().css({"overflow" : "hidden"})
+    }
+    // if($('header > div > div').hasClass( "active" )){
+    //   $(this).parents().css('overflow','hidden')
+      
+    // }
+    
+    
+    // if($('.navMenu.active')){
+    //   $(this).parent().css({"overflow":"hidden"})
+    // };
+    // var tagName = $('span').closest('div').prop('tagName');
+
+  
+
+   
 
 
 
+
+  
+
+  
 
 });

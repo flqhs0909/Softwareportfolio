@@ -1,6 +1,6 @@
 
 .width1200{max-width: 1200px; margin: 0 auto;}
-button{background: none; border: none;}
+button{background: none; border: none; padding: 0;}
 mark{background: none;}
 
 /* 로그인 */
@@ -48,12 +48,12 @@ mark{background: none;}
 .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(5) img{height: 359px; animation: inherit; animation-direction: reverse; }
 
 @keyframes mainRobot{
-    0%{top :330px}
-    100%{top :335px}
+    0%{top :330px; }
+    100%{top :335px;}
 }
 @keyframes subRobot{
-    0%{ top :135px}
-    100%{top : 145px}
+    0%{ top :135px;}
+    100%{top : 145px;}
 }
 @keyframes circleObj {
     to {transform: rotate(360deg);}
@@ -71,18 +71,18 @@ mark{background: none;}
 .swiper .swiper-wrapper .mainSlideBg02 .linkBtn{width: 195px;height: 60px; line-height: 60px; text-align: center; font-size: 20px; color: #5442E4;   }
 
 /* index 콘텐츠 시작 */
-main{ background: url(../image/main/Frame1.png), linear-gradient(to bottom,#00EDA9, #FFFFFF 14% ); margin-bottom: 274px; background-repeat: no-repeat; background-position: center top;}
+main{ background: url(../image/main/Frame1.png), linear-gradient(to bottom,#00EDA9, #FFFFFF 14% ); padding-bottom: 274px; background-repeat: no-repeat; background-position: center top;}
 /* mainBox01  */
 main .mainBox01{padding-top: 260px; margin-bottom: 330px;}
 main .mainBox01 > h2{width: 283px; line-height:50px; margin-bottom:31px; font-size: 42px; }
-main .mainBox01 > p{width:275px ;line-height: 31px; margin-bottom: 73px;font-size: 20px;  color: #666666; }
-main .mainBox01 > span{line-height: 31px; margin-bottom: 73px;font-size: 20px; color: #666666;  }
+main .mainBox01 > span , main .mainBox01 > p {line-height: 31px; font-size: 20px; color: #666666; }
+main .mainBox01 > p{margin-bottom: 73px;}
 
     /* 링크버튼 */
-.linkBtn{height: 52px;  font-size: 16px;  background-color: #92F5D9 ; border-radius: 50px; cursor: pointer;}
+.linkBtn{height: 52px;  font-size: 16px; background-color: #92F5D9; border-radius: 50px; cursor: pointer;}
 .linkBtn img{margin-right: 15px;}
 .linkBtn:hover{background-color: #00EDA9;}
-main .linkBtn{width: 180px; margin-bottom: 124px;text-align: center; line-height: 52px;}
+main .linkBtn{width: 180px; text-align: center; line-height: 52px;}
 
 /* mainBox02 */
 main .mainBox02{margin: 0 auto 202px; text-align: center; }
@@ -92,14 +92,14 @@ main .mainBox02 .linkBtn{margin: 0 auto 124px ;}
 main .mainBox02 video{ width:82.3%; margin: 0 auto; }
 
     /* 콘텐츠 swiper  */
-main ul > li > a {width: 360px; text-decoration: none; }
-main ul > li > a > img{width: 360px;  margin-bottom: 16px;}
+main ul > li > a {width: 360px; text-decoration: none;}
+main ul > li > a > img{width: 360px; margin-bottom: 16px;}
 main .swiper .swiper-wrapper .swiper-slide{width: 360px;}
 main .swiper-wrapper .swiper-slide b{line-height: 30px; font-size: 20px; color: #000000; }
     
     /* 교육 콘텐츠 영역(콘텐츠 슬라이드 1) */
 main .mainBox03{margin:0 0px 244px 120px ; display: flex; position: relative;}
-main .mainBox03 .educationArea{height: 318px; margin-right: 146px; }
+main .mainBox03 .educationArea{ margin-right: 146px; }
 main .mainBox03 .educationArea > h2{width: 202px; line-height:50px; margin-bottom:31px; font-size: 42px;}
 main .mainBox03 .educationArea > p{width: 275px; margin-bottom: 46px; line-height: 31px; font-size: 20px; color: #666666; }
 main .mainBox03 .educationArea > .linkBtn{margin: 0 auto; }
@@ -108,6 +108,7 @@ main .mainBox03 .swiper .swiper-wrapper .swiper-slide a p{width: 360px; margin-b
 main .mainBox03 .swiper .swiper-wrapper .swiper-slide a small{font-size: 18px; color: #5442E5;}
 main .mainBox03 .swiper .swiper-wrapper .swiper-slide a small img{margin-right: 6px;}
 main .eduBtn{ width: 105px; height: 48px; display: flex; justify-content: center; position: absolute; right: 130px; top:363px; border: 2px solid #dddddd; border-radius: 25px; }
+main .mobileBtn{display:none;}
 /* 교육 스와이퍼 비활성화 버튼 */
 .swiper-button-next.eduNext.swiper-button-disabled{background-image: url(../image/main/button_arrow_right.svg); background-repeat: no-repeat; background-position: center;}
 .swiper-button-prev.eduPrev.swiper-button-disabled{background-image: url(../image/main/button_arrow_left.svg); background-repeat: no-repeat; background-position: center;}
@@ -116,7 +117,7 @@ main .eduBtn{ width: 105px; height: 48px; display: flex; justify-content: center
 main .mainBox04{position: relative;}
 main .mainBox04 .storyArea{margin: 0 auto; text-align: center;}
 main .mainBox04 .storyArea > h2{line-height:50px; margin-bottom:31px; font-size: 42px;}
-main .mainBox04 .storyArea > p{width: 537px; margin:0 auto 46px; line-height: 31px; font-size: 20px; color: #666666;}
+main .mainBox04 .storyArea > p{margin:0 auto 46px; line-height: 31px; font-size: 20px; color: #666666;}
 main .mainBox04 .storyArea a.linkBtn{display: block; margin: 0 auto 82px; }
 main .mainBox04 .contentSlide02{margin-left: 120px;}
 main .mainBox04 .contentSlide02 .swiper-slide a mark{font-size: 20px; line-height: 31px; color: #5442E4;}
@@ -131,13 +132,87 @@ main .storyBtn{width: 105px; height: 48px; display: flex; justify-content: cente
 /* 슬라이더가 한 페이지에 다 나올 때 비활성화버튼 */
 .swiper-button-lock{display: block; line-height: 52px;}
 
+@media screen and (max-width:813px){
+
+    .width327{width: 327px; margin: 0 auto;}
+    .mainSlideBtn{display: none;}
+    .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{bottom: 30px; left: 30px;}
+    /* 메인 슬라이드1 */
+    .mainSlide01{width: 100%; height: 676px; position: relative;}
+    .swiper .swiper-wrapper .mainSlideBg01{background-image: url(../image/main/m_Frame2.png);} 
+    .mainSlide01 .mainSlideBg01 > div{padding-top: 155px;}
+    .mainSlide01 .mainSlideBg01 h2{margin-bottom: 21px;}
+    .mainSlide01 .mainSlideBg01 h2 img{width: 327px;} 
+    .mainSlide01 .mainSlideBg01 p{width: 275px; white-space: pre-line; font-size: 20px;position: relative; z-index: 99; }
+    .mainSlide01 .mainSlideBg01 .object > div{position: absolute;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1){left: 60%; top: 406px; }
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1) img{height: 160px;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2){left: 32%; top: 350px; }
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2) img{height: 114px;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3){left: 68%; top: 275px; transform-origin: 50% 22px;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3) img{height: 35px;  animation: inherit; animation-direction: reverse;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4){left: 37%; top: 507px; transform-origin:50% 50PX; }
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4) img{height: 78px; animation: inherit; animation-direction: reverse;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(5){display: none;}
+    @keyframes mainRobot{
+        0%{top :406px; }
+        100%{top :411px;}
+    }
+    @keyframes subRobot{
+        0%{ top :350px;}
+        100%{top : 355px;}
+    }
+  
+    /* 메인 슬라이드2 */
+    .swiper .swiper-wrapper .mainSlideBg02{background-color: #5442E4; background-image: url(../image/main/m_Frame5.png); background-repeat: no-repeat; background-position: center; }
+    .swiper .swiper-wrapper .mainSlideBg02 div{padding-top: 151px;margin: 0 30px;}
+    .swiper .swiper-wrapper .mainSlideBg02 div b{font-size: 37px; line-height: 50px;}
+    .swiper .swiper-wrapper .mainSlideBg02 div mark{width: 219px; line-height: 50px; display: block; margin-bottom: 246px; font-size: 37px; color: #00eda9; }
+    .swiper .swiper-wrapper .mainSlideBg02 div p{display: none; }
+    .swiper .swiper-wrapper .mainSlideBg02 .linkBtn{width: 195px;height: 52px; line-height: 52px; text-align: center; font-size: 16px; color: #5442E4;   }
+    
+    /* 메인콘텐츠 */
+    main{background: url(../image/main/m_Frame1.png), linear-gradient(to bottom,#00EDA9, #FFFFFF 14% ); padding-bottom: 120px; background-repeat: no-repeat; background-position: center top;}
+    main .mainBox01{padding-top: 46px; margin-bottom: 474px;  text-align: center;}
+    main .mainBox01 > h2{ width: 243px; margin:0 auto 31px; text-align: center; font-size: 36px; }
+    main .mainBox01 > span{display: block; line-height: 30px; font-size: 18px;  }
+    main .mainBox01 > p{ margin:0 auto 25px; line-height: 30px; font-size: 18px; }
+
+    main .mainBox02{display: flex; flex-direction: column; margin: 0 auto 172px; text-align: center; position: relative; }
+    main .mainBox02 > h2{ line-height: 60px; margin-bottom: 31px; white-space: pre-line; font-size: 58px; }
+    main .mainBox02 p{width: 285px; line-height: 30px; margin: 0 auto 23px; font-size: 18px; text-align: center; white-space: pre-line; }
+    main .mainBox02 p br{display: none;}
+    main .mainBox02 .linkBtn{order: 3; margin-bottom: 0;}
+    main .mainBox02 video{order: 2; width:82.3%; margin: 0 auto 25px; }
+
+    main .mainBox03{margin:0 auto 120px ; display: flex; flex-wrap: wrap; position: relative;}
+    main .mainBox03 .educationArea{ margin: 0 auto; text-align: center; }
+    main .mainBox03 .educationArea > h2{width: 202px; margin:0 auto 31px; font-size: 36px;}
+    main .mainBox03 .educationArea > p{width: 263px; margin-bottom: 30px; line-height: 30px; font-size: 18px;}
+    main .mainBox03 .educationArea > button{display: none;}
+    main .mainBox03 .swiper , main .mainBox04 .swiper {margin:0 0 34px 30px ; }
+    main .mainBox03 > button{ margin: 0 auto;}
+    main .eduBtn , main .storyBtn { display: none; }
+    main .mobileBtn{display:block; margin: 0 auto;}
+    
+    main .mainBox04 .storyArea > h2{margin-bottom:18px; font-size: 36px;}
+    main .mainBox04 .storyArea > p{margin:0 auto 23px; line-height: 30px; font-size: 18px; white-space: pre-line;}
+    main .mainBox04 .storyArea > p br{display: none;}
+    main .mainBox04 .storyArea a.linkBtn{display: none;}
+    main .mainBox04 > button{display: block; margin: 0 auto;}
+
+
+}
+
+
+
 
 /***** page01 (알아보기) *****/
 .learnTitle{height: 650px; background-color: #46298F; background-image: url(../image/sub/bg_spot_introduction1.png); background-position: 72%; background-repeat: no-repeat; }
 .learnTitle div > h2{padding-top: 205px;}
 .learnContainer{padding: 168px 0 252px 0; background-image: url(../image/sub/page01_conBg.png); background-repeat: no-repeat; background-position:center -50px;}
 .learnContainer .learnBox01 h2{line-height: 58px;margin-bottom: 56px; font-size: 42px;text-align: center;}
-.learnContainer .learnBox01 > p{width: 765px; margin:0 auto 119px; font-size: 24px; line-height: 37px; text-align: center; color: #666666; }
+.learnContainer .learnBox01 > p{margin:0 auto 119px; font-size: 24px; line-height: 37px; text-align: center; color: #666666; }
 
 /* page01 드롭다운 */
 .learnContainer .dropDown{margin-bottom: 125px;}
