@@ -13,9 +13,14 @@ main,.mainSlide01 .mainSlideBg01 p,
 .aiDataTitle div p, .aiDataContainer, .entryArea , .enterpriseArea,.naverArea,.webtoonArea p,
 /* page03_01, -06 */
 .softwareTitle,.softwareContainer, .subpageInner, 
+/* page04_02 */
+.programTitle p,.subMenu li , .programContainer,.downBtn,
+/* .containerNav ul, .infoBox01 */
 /* page05 */
-.archiveTitle p,.archiveContainer
-* {font-family:"NanumSquareRoundB"}
+.archiveTitle p,.archiveContainer,
+footer div ul li a
+
+{font-family:"NanumSquareRoundB"}
 
 /*** NanumSquareRound  EB ***/
 h2,header> div > nav ul li, .loginBtn,  .login p ,.login ul li a b ,.swiper-slide b ,
@@ -27,11 +32,12 @@ h2,header> div > nav ul li, .loginBtn,  .login p ,.login ul li a b ,.swiper-slid
 .subpageInner .relation > b,
 .subpageInner .relation ul li a b,
 /* page04 */
-.programContainer .programContents li 
+.programContainer .programContents li ,.programContainer article,.programContainer article p ,.programContainer article mark ,.programContainer article button,
+footer 
 {font-family:"NanumSquareRoundEB";}
 
 /*** NanumSquareRound  R ***/
- footer .width1200 div address p , footer div small ,footer .width1200 p ,footer ul ,footer .width1200 div a,
+ footer .width1200 div address , footer div small ,footer .width1200 p ,footer ul ,footer .width1200 div a,
  /* page02 */
  article mark ,.entryArea .dropInner .moduleArea li mark ,
  /* pagr04_02 */
@@ -48,7 +54,7 @@ header div .mobileNavMenu{display: none;}
 header > div { display:flex; justify-content:space-evenly;}
 header > div h1{display: inline-block;}
 header > div nav {height:50px; line-height:50px;} 
-header > div nav ul li.active{ border-bottom:2px solid #00EDA9;}
+header > div nav ul li.active a{ border-bottom:2px solid #00EDA9;}
 header ul{display:flex; width:540px; justify-content:space-between; font-size:18px; }
 header ul li a{font-size:18px; color:#ffffff; text-decoration:none;}
 header input[type="button"]{width:100px;height:48px; font-size:18px; cursor:pointer; border:none; color:#00EDA9; background:none; background-image:url(../image/main/button_login_white.png); background-repeat: no-repeat; background-size:cover; }
@@ -58,7 +64,7 @@ header.whiteBg.active{background-color:#ffffff;}
 header.whiteBg.active h1 img {opacity:0;}
 header.whiteBg.active h1{width: 162px; height: 52px; background-image:url(../image/main/logo_black.svg); cursor:pointer;}
 header.whiteBg.active nav ul li a{color: #181F41; }
-header.whiteBg.active nav ul li.active:nth-of-type(3) ,header.whiteBg.active nav ul li.active:nth-of-type(5){border-bottom:2px solid #00EDA9; }
+header.whiteBg.active nav ul li.active a{border-bottom:2px solid #00EDA9; }
 header.whiteBg.active input[type="button"]{width:100px; height:48px; font-size:18px; cursor: pointer; border: none; color:#434DFE; background:none; background-image:url(../image/main/button_login_black.png); background-repeat:no-repeat; background-size:cover; }
 
 /* header Black */
@@ -66,41 +72,58 @@ header.blackBg h1 img{opacity:0; }
 header.blackBg h1{ width:162px; height:52px; background-image:url(../image/main/logo_black.svg); cursor:pointer;}
 header.blackBg nav ul li a {color:#181F41;}
 header.blackBg input[type="button"]{width:100px; height:48px; font-size:18px; cursor: pointer; border: none; color:#434DFE; background:none; background-image:url(../image/main/button_login_black.png); background-repeat:no-repeat; background-size:cover; }
-header.blackBg > div nav ul li.active{border-bottom:2px solid #ffffff; }
-
+header.blackBg > div nav ul li.active a{border-bottom:2px solid #ffffff; }
 
 /* footer */
-footer{padding: 60px 0; background-color: #F7F7F7;}
-footer .width1200 > div { display: flex;justify-content: space-between;}
-footer .width1200 > .mailArea{width: 363px;}
-footer .width1200 div small {font-size: 12px; color: #181F41;}
-footer .width1200 div b{display: block;margin-bottom: 13px; font-size: 14px; line-height: 18px; color: #181F41;}
-footer .width1200 address p {margin-bottom: 13px; font-size: 14px;color: #6F6F6F;}
-footer .width1200 div a{text-decoration: none; color: #6F6F6F;}
-footer div small{line-height: 50px;}
-footer ul{width: 328px; display: flex; align-items: center;}
+footer{padding: 60px 30px; background-color: #F7F7F7;}
+footer .width1200 > div{ display: flex; justify-content: space-between;}
+footer .InformationArea .mailArea{width: 363px;}
+footer .InformationArea small {font-size: 12px; color: #181F41;}
+footer .InformationArea b{display: block;margin-bottom: 13px; font-size: 14px; line-height: 18px; color: #181F41;}
+footer .InformationArea address p {margin-bottom: 13px; font-size: 14px;color: #6F6F6F;}
+footer .InformationArea  a{text-decoration: none; color: #6F6F6F;}
+footer .copyArea{flex-direction:row-reverse;}
+footer ul{display: flex; align-items: center;}
+footer ul:nth-of-type(2){margin-right: 175px ; }
 footer ul li{ font-size: 14px;margin-right: 18px; }
 footer .social{justify-content: right; }
 footer .social li{margin-right: 10px; }
+footer div small{line-height: 50px;}
 
 @media screen and (max-width:813px){
     header > div{display:block; margin: 0 30px;}
     header nav{display: inline-block;}
     header nav ul {display: none;}
     header nav ul li{padding-right: 50px;}
-    header input[type="button"]{display: none;}
+    header input {display: none;}
+    /* 스크롤 활성화 */
     header.whiteBg.active nav ul li a{color: #ffffff;}
     header.whiteBg.active button{width: 50px; background-image:url(../image/main/menu_black_24dp.svg);background-repeat: no-repeat; background-size: 50px; }
     header.whiteBg.active .mobileNavMenu img {opacity: 0; cursor: pointer;}
-    header.whiteBg.active .mobileNavMenu.active b{background-image:url(../image/main/close_black_24dp.svg);background-repeat: no-repeat; background-size: 50px;}
+    header.whiteBg.active .mobileNavMenu.active button{background-image:url(../image/main/close_white_24dp.svg);background-repeat: no-repeat; background-size: 50px;}
 
-    header > div .mobileNavMenu{ display:inline-block;width: 50px; position: absolute; right: 30px; top: 15px; cursor: pointer;}
+    header.blackBg img{opacity: 0; }
+    header.blackBg:nth-of-type(1) button{background-image: url(../image/main/menu_black_24dp.svg);background-repeat: no-repeat; background-size: 50px;}
+    header.blackBg:nth-of-type(1) .mobileNavMenu.active button{background-image:url(../image/main/close_white_24dp.svg);background-repeat: no-repeat; background-size: 50px;}
+
+    header > div .mobileNavMenu{ display:inline-block;width: 50px; position: absolute; right: 30px; top: 15px; }
     header > div .mobileNavMenu button{position: absolute;cursor: pointer;}
     header > div .mobileNavMenu button:nth-of-type(2){opacity: 0;}
     header > div .mobileNavMenu img{ width: 50px; height: 50px; line-height: 50px;}
     header > div .mobileNavMenu.active{opacity: 1;width:250px; height: 100vh; top: 0; right: 0; background-color: #434DFE;}
-    header > div .mobileNavMenu.active button:nth-of-type(1){opacity: 0;}
+    header > div .mobileNavMenu.active button:nth-of-type(1){display: none;}
     header > div .mobileNavMenu.active button:nth-of-type(2){opacity: 1; right: 28px ; top: 24px;}
-    header > div .mobileNavMenu.active + nav ul {display: block; width: auto; position: absolute; right: 0;top: 150px; flex-direction: column; align-items: flex-end;}
-    header > div .mobileNavMenu.active + input[type="button"]{display: block; }
+    header > div .mobileNavMenu.active + nav{height: auto; position: absolute; right: 0; top: 15vh;}
+    header > div .mobileNavMenu.active + nav ul { display: block;width: 250px; }
+    header > div .mobileNavMenu.active + nav ul li{padding: 0 20px;}
+    header > div .mobileNavMenu.active + nav ul li:hover a{color: #00EDA9;}
+    header > div .mobileNavMenu.active + nav + input[type= "button"]{ display: block; position: absolute; right: 134px; top: 30px;}
+
+    footer .width1200 > div {display: block; }
+    footer .InformationArea{margin-bottom: 50px;}
+    footer .InformationArea a img {margin-bottom: 40px;}
+    footer .InformationArea address{margin-bottom: 50px;}
+    footer .social{justify-content: left; margin-bottom: 40px; }
+    footer .copyArea .serviceArea{margin-bottom: 40px;}
+    footer .copyArea small{margin-bottom: 50px;}
 }

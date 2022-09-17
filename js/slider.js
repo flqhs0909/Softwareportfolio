@@ -82,7 +82,7 @@ $(document).ready(function(){
     },
   });
   
-    // page01 탭버튼 (협력기관 , 자문위원)case01
+    // page01 탭버튼 (협력기관 , 자문위원) case01
     // $(".partnerArea > li > button").click(function(){
     //   $(this).parent().addClass("active") 
     //     .siblings() 
@@ -150,28 +150,16 @@ $(document).ready(function(){
     });
 
 
-    //width1200 nav메뉴 버튼
+    // width812 nav메뉴 버튼
     $('.mobileNavMenu').click(function(){
       $('.mobileNavMenu').toggleClass('active')
- 
-
       
     });
-    if($('.mobileNavMenu').hasClass('active')){
-      $(this).parents().css({"overflow" : "hidden"})
-    }
-    // if($('header > div > div').hasClass( "active" )){
-    //   $(this).parents().css('overflow','hidden')
-      
-    // }
-    
-    
-    // if($('.navMenu.active')){
-    //   $(this).parent().css({"overflow":"hidden"})
-    // };
-    // var tagName = $('span').closest('div').prop('tagName');
+    $('.mobileNavMenu').click(function(){
+      $('body').toggleClass('active')
+    });
 
-  
+
 
    
 
@@ -182,4 +170,4 @@ $(document).ready(function(){
 
   
 
-});
+})

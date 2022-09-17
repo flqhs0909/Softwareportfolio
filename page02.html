@@ -8,7 +8,7 @@
     <!-- css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel='stylesheet' type='text/css' media='screen' href='./CSS/import.css'>
-      <!-- JS -->
+    <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
@@ -17,10 +17,14 @@
 <body>
     <header class="whiteBg">
         <div>
-            <h1><a href="./index.html"><img src="image/main/logo.svg" alt="메인로고"></a></h1>
+            <h1><a href="index.html"><img src="image/main/logo.svg" alt="메인로고"></a></h1>
+            <div class="mobileNavMenu">
+                <button><img src="./image/main/menu_white_24dp.svg" alt="메뉴버튼"></button>
+                <button><img src="./image/main/close_white_24dp.svg" alt="메뉴닫기"></button>
+            </div>
             <nav>
                 <ul>
-                    <li ><a href="page01.html">알아보기</a></li>
+                    <li><a href="page01.html">알아보기</a></li>
                     <li class="active"><a href="page02.html">인공지능&데이터</a></li>
                     <li><a href="page03_01.html">소프트웨어</a></li>
                     <li><a href="page04_01.html">프로그램</a></li>
@@ -48,12 +52,13 @@
     <!-- -->
     <section class="aiDataTitle">
         <div class="width1200">
-            <h2>Hello AI World</h2>
+            <h2>Hello<br/> AI World</h2>
             <p>AI와 DATA의 세계<br/> 다양한 교육 콘텐츠로 경험하세요.</p>
         </div>
     </section>
     <div class=" width1200 aiDataContainer">
         <article class="contentBox01">
+            <img src="./image/sub/bridge_list01.svg" alt="bridge01">
             <a href="#"> 
                 <mark>AI기술과 DATA의 기본 개념</mark>
                 <h2>Hello AI World</h2>
@@ -61,32 +66,44 @@
                 <p>인공지능을 처음 접하는 누구나 쉽게<br/>
                     인공지능의 개념을 배울 수 있는 영상입니다.
                 </p>
+                <p>누구나 쉽게 AI의 개념을 쉽게 배울 수 있는 영상입니다.</p>
             </a>
         </article>
         <article class="contentBox02">
+            <img src="./image/sub/bridge_list02.svg" alt="bridge02">
             <a href="#">
                 <mark>교사 원격 연수</mark>
                 <h2>AI&DATA for Teachers</h2>
                 <p>인공지능의 기초 개념부터 교육 가이드까지<br/>
                     초·중등 교사 대상 원격 연수 프로그램을 제공합니다.
                 </p>
+                <p>초·중등 교사 대상
+                    AI 연수 프로그램을 만나보세요.
+                </p>
             </a>
         </article>
         <article class="contentBox03">
+            <img src="./image/sub/bridge_list03.svg" alt="bridge03">
             <a href="#">
                 <mark>온라인 교육 코스</mark>
                 <h2>Play with AI</h2>
                 <p>쉽고 재미있는 영상을 통해 인공지능의 개념을<br/>
                     학습할 수 있는 초등학생 대상 온라인 교육 코스입니다.
                 </p>
+                <p>초등학생들이 AI를 쉽에 이해할 수 있는 온라인 교육 코스입니다.</p>
+
             </a>
         </article>
         <article class="contentBox04">
+            <img src="./image/sub/bridge_list04.png" alt="bridge04">
             <a href="#">
                 <mark>교재</mark>
                 <h2>인공지능&데이터 클래스</h2>
                 <p>학생들에게 인공지능과 데이터 과학을 가르치는 교사를 위한 교육과정으로,<br/>
                     다양한 콘텐츠와 프로젝트 중심으로 구성된 수업 교안과 워크시트를 제공합니다.
+                </p>
+                <p> 인공지능과 데이터 과학을 가르치는
+                    교사를 위해 교재를 제공합니다.
                 </p>
             </a>
         </article>
@@ -101,7 +118,13 @@
         </div>
         <ul class="dropDown">
             <li>
-                <h3 class="dropTitle">인공지능 활용<img src="./image/sub/button_title_open.png" alt="openbtn"></h3>
+                <div class="dropTitle">
+                    <h3>인공지능 활용</h3>
+                    <div>
+                        <img src="./image/sub/button_title_open.png" alt="open버튼">
+                        <img src="./image/sub/button_title_opend.png" alt="opend버튼">
+                    </div>
+                </div>
                 <div class="dropInner">
                     <div>
                         <p>네이버의 인공지능 기술을 통해 인공지능 기술의 다양한 활용 사례를 체험할 수 있는 기능을 제공합니다.</p>
@@ -146,7 +169,13 @@
                 </div>
             </li>
             <li>
-                <h3 class="dropTitle" >모듈 학습<img src="./image/sub/button_title_open.png" alt="오픈버튼"></h3>
+                <div class="dropTitle">
+                    <h3>모듈 학습</h3>
+                    <div>
+                        <img src="./image/sub/button_title_open.png" alt="open버튼">
+                        <img src="./image/sub/button_title_opend.png" alt="opend버튼">
+                    </div>
+                </div>
                 <div class="dropInner">
                     <div>
                         <p>
@@ -173,7 +202,13 @@
                 </div>
             </li>
             <li>
-                <h3 class="dropTitle">데이터 분석<img src="./image/sub/button_title_open.png" alt="오픈버튼"></h3>
+                <div class="dropTitle">
+                    <h3 >데이터 분석</h3>
+                    <div>
+                        <img src="./image/sub/button_title_open.png" alt="open버튼">
+                        <img src="./image/sub/button_title_opend.png" alt="opend버튼">
+                    </div>
+                </div>
                 <div class="dropInner">
                     <div>
                         <p>데이터를 직접 수집하여 시각화하고 분석해봄으로써 데이터를 기반으로 문제를 해결해보는 경험을 제공합니다.</p>
@@ -321,8 +356,7 @@
                                 </li>
                                 <li class="swiper-slide"> 
                                     <b> <img src="./image/sub/icon_clova_ai_call.svg" alt="CLOVA Vision 이미지 분석">CLOVA Vision 이미지 분석</b>
-                                    <p>빅데이터를 기반으로 선생 학습된 모델을 통해 이미지에서 유용한 정보를 추출합니다.
-                                    </p>
+                                    <p>빅데이터를 기반으로 선생 학습된 모델을 통해 이미지에서 유용한 정보를 추출합니다.</p>
                                     <button class="linkBtn"><img src="./image/sub/button_link.svg" alt="네이버앱 스마트 렌즈 안내">네이버앱 스마트 렌즈 안내</button>
                                 </li>
                                 <li class="swiper-slide"> 
@@ -362,7 +396,6 @@
                             <div class="swiper-button-next labsNext "><img src="./image/main/button_arrow_right_on.svg"  alt="Next"></div>
                             <div class="swiper-button-prev labsPrev"><img src="./image/main/button_arrow_left_on.svg" alt="Previous"></div>
                         </div>
-
                     </li>
                 </ul>
             </div>
@@ -377,7 +410,7 @@
     </section>
     <footer>
         <div class="width1200" >
-            <div>
+            <div class="InformationArea">
                 <a href="#"><img src="./image/footer/logo_footer.svg" alt="footerlogo"></a>
                 <address>
                     <b>Information</b>
@@ -391,19 +424,19 @@
                     <a href="mailto:play_sw@connect.cr.kr" >play_sw@connect.cr.kr</a>
                 </div>
             </div>
-            <div > 
-                <small>NAVER Connect Foundation</small>
-                <ul>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">개인정보 처리방침</a></li>
-                    <li><a href="#">자주묻는질문</a></li>
-                </ul>
+            <div class="copyArea"> 
                 <ul class="social" >
                     <li><a href="#"><img src="./image/footer/sns_youtube.svg" alt="youtube"></a></li>
                     <li><a href="#"><img src="./image/footer/sns_navertv.svg" alt="navertv"></a></li>
                     <li><a href="#"><img src="./image/footer/sns_naverpost.svg" alt="naverpost"></a></li>
                     <li><a href="#"><img src="./image/footer/sns_facebook.svg" alt="facebook"></a></li>
                 </ul>
+                <ul class="serviceArea">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                </ul> 
+                <small>NAVER Connect Foundation</small>
             </div>
         </div>
     </footer>
