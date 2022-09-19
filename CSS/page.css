@@ -625,7 +625,6 @@ hr{margin: 0;}
     .aiDataContainer article p:nth-of-type(1){display: none;}
     .aiDataContainer article p:nth-of-type(2){display: block; line-height: 23px; font-size: 16px; }
 
-
     .aiDataContainer article span{display: none;}
     .aiDataContainer .contentBox01{height: 427PX; margin-bottom: 40px; background-image: url(../image/sub/bg_m_bridge_object01.png); }
     .aiDataContainer .contentBox01 img{height: 205px; width: 205px;}
@@ -720,11 +719,11 @@ hr{margin: 0;}
     .archiveTitle h2{line-height: 42px; margin: 0 auto; font-size: 34px;text-align: center;}
     .archiveTitle p{display: none;}
     .archiveContainer{padding:80px 30px 160px;}
+    .archiveContainer .subMenu{margin: 0 auto 83px;}
     .archiveContainer .blogBox{margin-bottom: 30px;}
     .archiveContainer .blogBox img{float: none; width: 100%;margin-right: 0; margin-bottom: 16px;}
     .archiveContainer .blogBox mark{margin-bottom:9px ;}
     .archiveContainer .blogBox h2{ margin-bottom: 0px;}
-
     .archiveContainer .blogBox p{display: none;}
     .archiveContainer .blogBox time{line-height: 32px;}
 
