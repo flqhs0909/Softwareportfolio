@@ -2,7 +2,7 @@
 .width1200{max-width: 1200px; margin: 0 auto;}
 button{background: none; border: none; padding: 0;}
 mark{background: none;}
-body.active{overflow: hidden;  }
+body.active{overflow: hidden;}
 
 /* 로그인 */
 .login{width: 100%; height: 100%; position: fixed; display: none; background-color: rgba(40, 40, 40, 0.7); z-index: 999; }
@@ -34,7 +34,8 @@ body.active{overflow: hidden;  }
 /* index 슬라이드01  */
 .swiper .swiper-wrapper .mainSlideBg01{background-color: #3D46FF; background-image: url(../image/main/Frame2.png); background-repeat: no-repeat;  background-position: center; } 
 .mainSlide01 .mainSlideBg01 > div{padding-top: 245px;}
-.mainSlide01 .mainSlideBg01 h2{margin-bottom: 60px;}
+.mainSlide01 .mainSlideBg01 h2{margin-bottom: 60px; }
+.mainSlide01 .mainSlideBg01 h2 img{position: relative; z-index: 99; }
 .mainSlide01 .mainSlideBg01 p{width: 415px; font-size: 22px; line-height: 36px; color: #ffffff;}
 .mainSlide01 .mainSlideBg01 .object > div{position: absolute;}
 .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1){left: 67%; top: 330px; animation: mainRobot 1s infinite alternate; }
@@ -136,7 +137,7 @@ main .storyBtn{width: 105px; height: 48px; display: flex; justify-content: cente
 /***** page01 (알아보기) *****/
 .learnTitle{height: 650px; background-color: #46298F; background-image: url(../image/sub/bg_spot_introduction1.png); background-position: 72%; background-repeat: no-repeat; }
 .learnTitle div > h2{padding-top: 205px;}
-.learnContainer{padding: 168px 0 252px 0; background-image: url(../image/sub/page01_conBg.png); background-repeat: no-repeat; background-position:center -50px;}
+.learnContainer{padding: 168px 0 252px 0; background-image: url(../image/sub/page01_conBg.png); background-repeat: no-repeat; background-position:center -50px; background-size: contain;}
 .learnContainer .learnBox01 h2{line-height: 58px;margin-bottom: 56px; font-size: 42px;text-align: center;}
 .learnContainer .learnBox01 > p{margin:0 auto 119px; font-size: 24px; line-height: 37px; text-align: center; color: #666666; }
 
@@ -149,7 +150,7 @@ main .storyBtn{width: 105px; height: 48px; display: flex; justify-content: cente
 .dropTitle p{line-height: 37px; font-size: 20px; color: #999999;}
 .dropTitle p b{margin-right: 41px;}
 .dropTitle div{position: relative;width: 50px; height: 50px;}
-.dropTitle img{ position: absolute; height: 100%; }
+.dropTitle img{ position: absolute; height: 100%; cursor: pointer; }
 .dropTitle img:nth-of-type(2){ display: none; }
 .dropTitle.active img:nth-of-type(1){ display:none;}
 .dropTitle.active img:nth-of-type(2){ display: block;}
@@ -198,96 +199,6 @@ main .storyBtn{width: 105px; height: 48px; display: flex; justify-content: cente
 .swiper-button-prev.advicePrev.swiper-button-disabled{background-image: url(../image/main/button_arrow_left.svg); background-repeat: no-repeat;background-position: center;}
 .swiper-button-next.adviceNext.swiper-button-disabled img , .swiper-button-prev.advicePrev.swiper-button-disabled img{opacity: 0;}
 .adviceBtn{opacity: 0; width: 105px; height: 48px; display: flex; justify-content: center; position: absolute;right: 130px; top:344px; border: 2px solid #dddddd; border-radius: 25px; }
-
-
-@media screen and (max-width:813px){
-
-    .width327{width: 327px; margin: 0 auto;}
-    .mainSlideBtn{display: none;}
-    .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{bottom: 30px; left: 30px;}
-    /* 메인 슬라이드1 */
-    .mainSlide01{width: 100%; height: 676px; position: relative;}
-    .swiper .swiper-wrapper .mainSlideBg01{background-image: url(../image/main/m_Frame2.png);} 
-    .mainSlide01 .mainSlideBg01 > div{padding-top: 155px;}
-    .mainSlide01 .mainSlideBg01 h2{margin-bottom: 21px;}
-    .mainSlide01 .mainSlideBg01 h2 img{width: 327px;} 
-    .mainSlide01 .mainSlideBg01 p{width: 275px; white-space: pre-line; font-size: 20px;position: relative; z-index: 99; }
-    .mainSlide01 .mainSlideBg01 .object > div{position: absolute;}
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1){left: 60%; top: 406px; }
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1) img{height: 160px;}
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2){left: 32%; top: 350px; }
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2) img{height: 114px;}
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3){left: 68%; top: 275px; transform-origin: 50% 22px;}
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3) img{height: 35px;  animation: inherit; animation-direction: reverse;}
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4){left: 37%; top: 507px; transform-origin:50% 50PX; }
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4) img{height: 78px; animation: inherit; animation-direction: reverse;}
-    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(5){display: none;}
-    @keyframes mainRobot{
-        0%{top :406px; }
-        100%{top :411px;}
-    }
-    @keyframes subRobot{
-        0%{ top :350px;}
-        100%{top : 355px;}
-    }
-  
-    /* 메인 슬라이드2 */
-    .swiper .swiper-wrapper .mainSlideBg02{background-color: #5442E4; background-image: url(../image/main/m_Frame5.png); background-repeat: no-repeat; background-position: center; }
-    .swiper .swiper-wrapper .mainSlideBg02 div{padding-top: 151px;margin: 0 30px;}
-    .swiper .swiper-wrapper .mainSlideBg02 div b{font-size: 37px; line-height: 50px;}
-    .swiper .swiper-wrapper .mainSlideBg02 div mark{width: 219px; line-height: 50px; display: block; margin-bottom: 246px; font-size: 37px; color: #00eda9; }
-    .swiper .swiper-wrapper .mainSlideBg02 div p{display: none; }
-    .swiper .swiper-wrapper .mainSlideBg02 .linkBtn{width: 195px;height: 52px; line-height: 52px; text-align: center; font-size: 16px; color: #5442E4;   }
-    
-    /* 메인콘텐츠 */
-    main{background: url(../image/main/m_Frame1.png), linear-gradient(to bottom,#00EDA9, #FFFFFF 14% ); padding-bottom: 120px; background-repeat: no-repeat; background-position: center top;}
-    main .mainBox01{padding-top: 46px; margin-bottom: 474px;  text-align: center;}
-    main .mainBox01 > h2{ width: 243px; margin:0 auto 31px; text-align: center; font-size: 36px; }
-    main .mainBox01 > span{display: block; line-height: 30px; font-size: 18px;  }
-    main .mainBox01 > p{ margin:0 auto 25px; line-height: 30px; font-size: 18px; }
-    main .mainBox01 a.linkBtn{margin: 0 auto;}
-
-    main .mainBox02{ margin: 0 auto 172px; text-align: center; position: relative; }
-    main .mainBox02 > h2{ line-height: 60px; margin-bottom: 31px; white-space: pre-line; font-size: 58px; }
-    main .mainBox02 p{width: 285px; line-height: 30px; margin: 0 auto 23px; font-size: 18px; text-align: center; white-space: pre-line; }
-    main .mainBox02 p br{display: none;}
-    main .mainBox02 .linkBtn:nth-of-type(1){display: none;}
-    main .mainBox02 video{ width:82.3%; margin: 0 auto 25px; }
-
-    main .mainBox03{margin:0 auto 120px ; display: block; flex-wrap: wrap; position: relative;}
-    main .mainBox03 .educationArea{ margin: 0 auto; text-align: center; }
-    main .mainBox03 .educationArea > h2{width: 202px; margin:0 auto 31px; font-size: 36px;}
-    main .mainBox03 .educationArea > p{width: 263px; margin:0 auto 30px; line-height: 30px; font-size: 18px;}
-    main .mainBox03 .educationArea > button{display: none;}
-    main .mainBox03 .swiper , main .mainBox04 .swiper {margin:0 0 34px 30px ; }
-    main .mainBox03 .educationArea .linkBtn{ display: none; }
-    main .mobileBtn{display:block; margin: 0 auto;}
-    main .eduBtn , main .storyBtn { display: none; }
-    
-    main .mainBox04 .storyArea > h2{margin-bottom:18px; font-size: 36px;}
-    main .mainBox04 .storyArea > p{margin:0 auto 23px; line-height: 30px; font-size: 18px; white-space: pre-line;}
-    main .mainBox04 .storyArea > p br{display: none;}
-    main .mainBox04 .storyArea a.linkBtn{display: none;}
-    /* main .mainBox04 > button{display: block; margin: 0 auto;} */
-
-    /* page 01 */
-    .learnTitle{height: 520px; background-position: center 281px; background-size: 324px;}
-    .learnTitle div > h2 {padding-top: 108px; text-align: center;}
-    .learnTitle div > h2 img{width: 315px; }
-    .learnContainer .learnBox01 h2{line-height: 50px;margin-bottom: 32px; font-size: 36px;text-align: center;}
-    .learnContainer .learnBox01 > p{margin:0 auto 119px; font-size: 18px; line-height: 30px; text-align: center;  }
-    .learnContainer{padding: 87px 30px 160px ;}
-    .dropTitle{height: 100px;}
-    .dropTitle p{font-size: 16px;}
-    .dropTitle p b{display: none;}
-    .dropInner{padding: 30px;}
-    .dropDown li:not(:first-child){margin-top: 40px;}
-    .learnContainer .dropInner figure{margin-bottom: 40px;}
-    .learnContainer .dropInner figure p{font-size: 18px; margin-bottom: 23px;}
-    .learnContainer .dropInner figure strong{font-size: 52px;}
-    .partnerBtn , .adviceBtn {display: none;}
-
-}
 
 /****** page02 (AI&DATA페이지) **********/
 .aiDataTitle{height: 650px; background-image: url(../image/sub/bg_spot_ai_data.png);background-position: 72%  ; background-repeat: no-repeat;background-color: #5450F4;}
@@ -412,72 +323,6 @@ main .storyBtn{width: 105px; height: 48px; display: flex; justify-content: cente
 .webtoonArea p{width: 561px; display: inline-block; line-height: 42px; font-size:24px ; color: #666666;}
 .webtoonArea .linkBtn{width: 230px; position: absolute;  right: 0; top: 240px;}
 
-
-@media screen and (max-width:813px){
-    .aiDataTitle{height: 520px; background-image: url(../image/sub/bg_m_spot_ai_data.png); background-position: center; background-repeat: no-repeat;background-color: #5450F4;}
-    .aiDataTitle > div{padding-top: 129px;}
-    .aiDataTitle > div h2{line-height: 62px; margin-bottom:0; font-size: 48px; text-align: center;}
-    .aiDataTitle > div h2 br{display: block;}
-    .aiDataTitle > div p{display: none;}
-
-    .aiDataContainer{ padding:60px 30px 0px;}
-    .aiDataContainer article{ width: 100%;}
-    .aiDataContainer article img{ display: block;position: static; padding-top: 60px; margin: 0 auto 40px;}
-    .aiDataContainer article a{position: static; margin-left: 30px;}
-    .aiDataContainer article mark{margin-bottom: 10px;line-height: 20px; font-size: 18px; color: #434DFE;}
-    .aiDataContainer article h2 {line-height: 20px; margin-bottom:21px; font-size: 20px;  }
-    .aiDataContainer article p:nth-of-type(1){display: none;}
-    .aiDataContainer article p:nth-of-type(2){display: block; line-height: 23px; font-size: 16px; }
-
-
-    .aiDataContainer article span{display: none;}
-    .aiDataContainer .contentBox01{height: 427PX; margin-bottom: 40px; background-image: url(../image/sub/bg_m_bridge_object01.png); }
-    .aiDataContainer .contentBox01 img{height: 205px; width: 205px;}
-
-    .aiDataContainer .contentBox02{height: 364px; background-image: url(../image/sub/bg_m_bridge_object02.png);}
-    .aiDataContainer .contentBox03{height: 364px; background-image: url(../image/sub/bg_m_bridge_object03.png);}
-    .aiDataContainer .contentBox04{height: 427px; background-image: url(../image/sub/bg_m_bridge_object04.png);}
-    .aiDataContainer .contentBox04 p:nth-of-type(2){width: 231px;}
-    .contentBox02 img , .contentBox03 img , .contentBox04 img {width:250px;}
-
-    .entryArea > div{margin-bottom: 60px; padding: 0 30px; position: relative;}
-    .entryArea div h2{margin-bottom: 19px; font-size: 36px;}
-    .entryArea > div p{width: auto; line-height: 31px; margin-bottom: 33px; font-size: 18px; }
-    .entryArea > div .linkBtn{width: 100%; position:static;}
-
-    .entryArea .dropDown{padding: 0 30px; margin-bottom: 120px;}
-    .entryArea .dropDown .dropInner > div p{width: auto; font-size: 20px; line-height: 36px ; margin-bottom: 20px; }
-    .entryArea .dropDown .dropInner div > button{display: block; margin: 0 auto; }
-    /* 드롭다운2 모듈  */
-    .entryArea .dropDown .dropInner > img{width: 100%;}
-    .entryArea .dropDown .dropInner .moduleArea li{width: auto; margin-right: 0;}
-    .entryArea .dropDown .dropInner .moduleArea li b{font-size: 18px;}
-    .entryArea .dropDown .dropInner .moduleArea li p{width: auto; line-height: 31px; font-size: 16px; margin-bottom: 27px;}
-    .entryArea .dropDown .dropInner:nth-of-type(2) .moduleArea{display: block;}
-    .entryArea .dropDown .dropInner .moduleArea:nth-child(2) li:nth-of-type(2){padding: 0 24px; border: none; }
-    .entryArea .dropDown .dropInner .moduleArea li img{display:  block; margin:50px auto 52px;}
-    /* 기업가 정신 */
-    .enterpriseArea{height: auto; padding: 85px 30px 118px ;}
-    .enterpriseArea > div{position: relative;}
-    .enterpriseArea > div h2 { font-size: 36px; margin-bottom: 35px;}
-    .enterpriseArea div p{width: auto; line-height: 30px; font-size: 18px;}
-    .enterpriseArea .boxSlide ul li{ width: 315px; height: 315px;}
-    .enterpriseArea div .enterpriseBtn{width: 100%; display: block;margin-bottom: 60px; position: static;}
-    .boxBtn , .clovaBtn{display: none; }
-
-    .naverArea{height: auto; padding: 83px 30px 80px; }
-    .naverArea > div h2{font-size: 36px;}
-    .naverArea > div p{line-height: 30px;  font-size: 18px;}
-
-    .webtoonArea{height: auto; padding: 125px 30px;}
-    .webtoonArea h2{font-size: 36px; }
-    .webtoonArea p{width: auto; display: block; line-height: 30px; font-size:18px ; margin-bottom: 40px;}
-    .webtoonArea .linkBtn{width: 100%; position:static; }
-
-
-}
-
-
 /******page03_01 ~ 03 소프트웨어  *******/
 .softwareTitle{height: 650px; background-color: #69F4BE;background-image: url(../image/sub/bg_spot_software.png); background-position:80% ;background-repeat: no-repeat; }
 .softwareTitle h2{width: 308px; line-height: 80px;padding-top: 196px; margin-bottom:50px; font-size: 64px;}
@@ -538,7 +383,7 @@ a.listBack:hover img{opacity: 0;}
 /* page03 _02 */
  
 
-    /* 연관동영상 */
+/* 연관동영상 */
 .subpageInner .relation{display:inline-block; padding: 30px ; position: absolute; border: 1px solid #dddddd; overflow-y: scroll; text-align: start; width: 300px; height: 380px;}
 .subpageInner .relation > b{display: inline-block; font-size: 24px; margin-bottom: 30px;}
 .subpageInner .relation ul li{width: 277px; height: 87px; margin-bottom: 30px;}
@@ -554,12 +399,13 @@ a.listBack:hover img{opacity: 0;}
 .subpageInner button{position: absolute; width: 360px;}
 .subpageInner button:nth-of-type(1){top: 677px;}
 .subpageInner button:nth-of-type(2){top: 745px;}
+
 /*  page 04_01프로그램  페이지 */
 .programTitle{height: 650px;  background-color: #434DFE; color: #ffffff; background-image: url(../image/sub/bg_spot_program.png); background-position: 80%; background-repeat: no-repeat;}
 .programTitle h2{width: 424px;padding-top: 202PX; line-height: 74px; margin-bottom: 50px; font-size: 64px;}
 .programTitle p{width: 327px; font-size: 22px; line-height: 36px; }
 
-.programContainer{padding: 80px 0 162px 0; background-image: url(../image/sub/program_conBg.png); background-repeat: no-repeat; background-position:center -50px; }
+.programContainer{padding: 80px 0 162px 0; background-image: url(../image/sub/program_conBg.png); background-repeat: no-repeat; background-position:center -50px; background-size: contain; }
 .programContainer div .subMenu{margin-bottom: 81px; justify-content: left;}
 .programContainer div .subMenu li{width: 186px ;}
 .programContainer .programContents li{margin-bottom: 63px;}
@@ -573,44 +419,6 @@ a.listBack:hover img{opacity: 0;}
 .programContainer .programContents li a div small{height: 32px; line-height: 32px; display: inline-block; text-align: center; border-radius: 50px;}
 .programContainer .programContents li a div .deadline{width: 80px; background-color: #F3F3F3; color: #999999;}
 .programContainer .programContents li a div .recruit{width: 70px; background-color: rgba(67, 77, 254, 0.2); color: #434DFE;}
-
-
-@media screen and (max-width:813px) {
-    /* page03_01 */
-    .softwareTitle{height: 520px; background-image: url(../image/sub/bg_m_spot_software.png); background-size: 380px; background-position:center bottom; }
-    .softwareTitle h2{width: 262px; line-height: 63px;padding-top: 115px; margin: 0 auto 50px;text-align: center; font-size: 48px;}
-    .softwareTitle p{display: none;}
-    .softwareContainer{padding: 54px 30px 120px ;}
-    .softwareContainer .linkBtn{display: none;}
-    .softwareContainer > div{display: flex; justify-content: center;}
-    .subMenu{width: 244px; flex-wrap: wrap; }
-    .subMenu li{margin: 0;}
-    .softwareContainer div .SoftWearEduArea li{width: 100%; margin-bottom: 41px;}
-    .softwareContainer div .SoftWearEduArea li a{margin-bottom: 41px;}
-    .softwareContainer div .SoftWearEduArea li a img{width: 100%;}
-    .softwareContainer div .SoftWearEduArea li:not(:nth-child(3n)){margin: 0;}
-    .softwareContainer div .SoftWearEduArea{justify-content: center;}
-    /*page03_01_01  */
-    .subpageInner{padding:119px 20px; position: relative;}
-    .subpageInner div section iframe{width:100%;  margin-bottom:44px;}
-    .subpageInner div > section{display: block; width: auto; margin-right: 0px;}
-
-    .subpageInner .relation{display:block; position: static; border: none; overflow-y:visible; width: auto; height: auto;}
-    .subpageInner .relation ul li a p{display: block; margin-bottom: 12px; overflow:visible; }
-
-    /* page04_01 */
-    .programTitle{height:520px;  background-position:center 90%; background-size: 50%;}
-    .programTitle h2{width: 325px;padding-top: 125PX; line-height: 62px; margin:0 auto 50px;text-align: center; font-size: 49px;}
-    .programTitle p{display: none;} 
-    .programContainer{padding: 55px 30px 120px;background-size: contain; }
-    .programContainer div .subMenu{flex-wrap: nowrap; width: 100%; justify-content: center;}
-    /* .programContainer .programContainer .subMenu li a{ win} */
-
-}
-
-
-
-
 
 /* page04_02 프로그램 대학생 멘토 */
 hr{margin: 0;}
@@ -714,26 +522,200 @@ hr{margin: 0;}
 .archiveArea li a b{display: block; line-height: 32px; font-size: 20px;}
 .archiveArea li a time{line-height: 32px; position: absolute; bottom: 0; font-size: 18px; color: #999999;}
 
+@media screen and (max-width:813px){
 
-@media screen and (max-width:813px) {
+    .width327{width: 327px; margin: 0 auto;}
+    .mainSlideBtn{display: none;}
+    .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{bottom: 30px; left: 30px;}
+    /* 메인 슬라이드1 */
+    .mainSlide01{width: 100%; height: 676px; position: relative;}
+    .swiper .swiper-wrapper .mainSlideBg01{background-image: url(../image/main/m_Frame2.png);} 
+    .mainSlide01 .mainSlideBg01 > div{padding-top: 155px;}
+    .mainSlide01 .mainSlideBg01 h2{margin-bottom: 21px;}
+    .mainSlide01 .mainSlideBg01 h2 img{width: 327px;} 
+    .mainSlide01 .mainSlideBg01 p{width: 275px; white-space: pre-line; font-size: 20px;position: relative; z-index: 99; }
+    .mainSlide01 .mainSlideBg01 .object > div{position: absolute;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1){left: 60%; top: 406px; }
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(1) img{height: 160px;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2){left: 32%; top: 350px; }
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(2) img{height: 114px;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3){left: 68%; top: 275px; transform-origin: 50% 22px;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(3) img{height: 35px;  animation: inherit; animation-direction: reverse;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4){left: 37%; top: 507px; transform-origin:50% 50PX; }
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(4) img{height: 78px; animation: inherit; animation-direction: reverse;}
+    .mainSlide01 .mainSlideBg01 .object > div:nth-of-type(5){display: none;}
+    @keyframes mainRobot{
+        0%{top :406px; }
+        100%{top :411px;}
+    }
+    @keyframes subRobot{
+        0%{ top :350px;}
+        100%{top : 355px;}
+    }
+  
+    /* 메인 슬라이드2 */
+    .swiper .swiper-wrapper .mainSlideBg02{background-color: #5442E4; background-image: url(../image/main/m_Frame5.png); background-repeat: no-repeat; background-position: center; }
+    .swiper .swiper-wrapper .mainSlideBg02 div{padding-top: 151px;margin: 0 30px;}
+    .swiper .swiper-wrapper .mainSlideBg02 div b{font-size: 37px; line-height: 50px;}
+    .swiper .swiper-wrapper .mainSlideBg02 div mark{width: 219px; line-height: 50px; display: block; margin-bottom: 246px; font-size: 37px; color: #00eda9; }
+    .swiper .swiper-wrapper .mainSlideBg02 div p{display: none; }
+    .swiper .swiper-wrapper .mainSlideBg02 .linkBtn{width: 195px;height: 52px; line-height: 52px; text-align: center; font-size: 16px; color: #5442E4;   }
+    
+    /* 메인콘텐츠 */
+    main{background: url(../image/main/m_Frame1.png), linear-gradient(to bottom,#00EDA9, #FFFFFF 14% ); padding-bottom: 120px; background-repeat: no-repeat; background-position: center top;}
+    main .mainBox01{padding-top: 46px; margin-bottom: 474px;  text-align: center;}
+    main .mainBox01 > h2{ width: 243px; margin:0 auto 31px; text-align: center; font-size: 36px; }
+    main .mainBox01 > span{display: block; line-height: 30px; font-size: 18px;  }
+    main .mainBox01 > p{ margin:0 auto 25px; line-height: 30px; font-size: 18px; }
+    main .mainBox01 a.linkBtn{margin: 0 auto;}
+
+    main .mainBox02{ margin: 0 auto 172px; text-align: center; position: relative; }
+    main .mainBox02 > h2{ line-height: 60px; margin-bottom: 31px; white-space: pre-line; font-size: 58px; }
+    main .mainBox02 p{width: 285px; line-height: 30px; margin: 0 auto 23px; font-size: 18px; text-align: center; white-space: pre-line; }
+    main .mainBox02 p br{display: none;}
+    main .mainBox02 .linkBtn:nth-of-type(1){display: none;}
+    main .mainBox02 video{ width:82.3%; margin: 0 auto 25px; }
+
+    main .mainBox03{margin:0 auto 120px ; display: block; flex-wrap: wrap; position: relative;}
+    main .mainBox03 .educationArea{ margin: 0 auto; text-align: center; }
+    main .mainBox03 .educationArea > h2{width: 202px; margin:0 auto 31px; font-size: 36px;}
+    main .mainBox03 .educationArea > p{width: 263px; margin:0 auto 30px; line-height: 30px; font-size: 18px;}
+    main .mainBox03 .educationArea > button{display: none;}
+    main .mainBox03 .swiper , main .mainBox04 .swiper {margin:0 0 34px 30px ; }
+    main .mainBox03 .educationArea .linkBtn{ display: none; }
+    main .mobileBtn{display:block; margin: 0 auto;}
+    main .eduBtn , main .storyBtn { display: none; }
+    
+    main .mainBox04 .storyArea > h2{margin-bottom:18px; font-size: 36px;}
+    main .mainBox04 .storyArea > p{margin:0 auto 23px; line-height: 30px; font-size: 18px; white-space: pre-line;}
+    main .mainBox04 .storyArea > p br{display: none;}
+    main .mainBox04 .storyArea a.linkBtn{display: none;}
+    /* main .mainBox04 > button{display: block; margin: 0 auto;} */
+
+    /* page 01 */
+    .learnTitle{height: 520px; background-position: center 281px; background-size: 324px;}
+    .learnTitle div > h2 {padding-top: 108px; text-align: center;}
+    .learnTitle div > h2 img{width: 315px; }
+    .learnContainer .learnBox01 h2{line-height: 50px;margin-bottom: 32px; font-size: 36px;text-align: center;}
+    .learnContainer .learnBox01 > p{margin:0 auto 119px; font-size: 18px; line-height: 30px; text-align: center;  }
+    .learnContainer{padding: 87px 30px 160px ;}
+    .dropTitle{height: 100px;}
+    .dropTitle p{font-size: 16px;}
+    .dropTitle p b{display: none;}
+    .dropInner{padding: 30px;}
+    .dropDown li:not(:first-child){margin-top: 40px;}
+    .learnContainer .dropInner figure{margin-bottom: 40px;}
+    .learnContainer .dropInner figure p{font-size: 18px; margin-bottom: 23px;}
+    .learnContainer .dropInner figure strong{font-size: 52px;}
+    .partnerBtn , .adviceBtn {display: none;}
+
+    /* page02 */
+    .aiDataTitle{height: 520px; background-image: url(../image/sub/bg_m_spot_ai_data.png); background-position: center; background-repeat: no-repeat;background-color: #5450F4;}
+    .aiDataTitle > div{padding-top: 129px;}
+    .aiDataTitle > div h2{line-height: 62px; margin-bottom:0; font-size: 48px; text-align: center;}
+    .aiDataTitle > div h2 br{display: block;}
+    .aiDataTitle > div p{display: none;}
+
+    .aiDataContainer{ padding:60px 30px 0px;}
+    .aiDataContainer article{ width: 100%;}
+    .aiDataContainer article img{ display: block;position: static; padding-top: 60px; margin: 0 auto 40px;}
+    .aiDataContainer article a{position: static; margin-left: 30px;}
+    .aiDataContainer article mark{margin-bottom: 10px;line-height: 20px; font-size: 18px; color: #434DFE;}
+    .aiDataContainer article h2 {line-height: 20px; margin-bottom:21px; font-size: 20px;  }
+    .aiDataContainer article p:nth-of-type(1){display: none;}
+    .aiDataContainer article p:nth-of-type(2){display: block; line-height: 23px; font-size: 16px; }
+
+
+    .aiDataContainer article span{display: none;}
+    .aiDataContainer .contentBox01{height: 427PX; margin-bottom: 40px; background-image: url(../image/sub/bg_m_bridge_object01.png); }
+    .aiDataContainer .contentBox01 img{height: 205px; width: 205px;}
+    .aiDataContainer .contentBox02{height: 364px; background-image: url(../image/sub/bg_m_bridge_object02.png);}
+    .aiDataContainer .contentBox03{height: 364px; background-image: url(../image/sub/bg_m_bridge_object03.png);}
+    .aiDataContainer .contentBox04{height: 427px; background-image: url(../image/sub/bg_m_bridge_object04.png);}
+    .aiDataContainer .contentBox04 p:nth-of-type(2){width: 231px;}
+    .contentBox02 img , .contentBox03 img , .contentBox04 img {width:250px;}
+
+    .entryArea > div{margin-bottom: 60px; padding: 0 30px; position: relative;}
+    .entryArea div h2{margin-bottom: 19px; font-size: 36px;}
+    .entryArea > div p{width: auto; line-height: 31px; margin-bottom: 33px; font-size: 18px; }
+    .entryArea > div .linkBtn{width: 100%; position:static;}
+
+    .entryArea .dropDown{padding: 0 30px; margin-bottom: 120px;}
+    .entryArea .dropDown .dropInner > div p{width: auto; font-size: 20px; line-height: 36px ; margin-bottom: 20px; }
+    .entryArea .dropDown .dropInner div > button{display: block; margin: 0 auto; }
+    .entryArea .dropDown .dropInner figure {display: block; }
+    .entryArea .dropDown .dropInner figure img{display: block; margin: 0 auto;}
+
+    /* 드롭다운2 모듈  */
+    .entryArea .dropDown .dropInner > img{width: 100%;}
+    .entryArea .dropDown .dropInner .moduleArea li{width: auto; margin-right: 0;}
+    .entryArea .dropDown .dropInner .moduleArea li b{font-size: 18px;}
+    .entryArea .dropDown .dropInner .moduleArea li p{width: auto; line-height: 31px; font-size: 16px; margin-bottom: 27px;}
+    .entryArea .dropDown .dropInner:nth-of-type(2) .moduleArea{display: block;}
+    .entryArea .dropDown .dropInner .moduleArea:nth-child(2) li:nth-of-type(2){padding: 0 24px; border: none; }
+    .entryArea .dropDown .dropInner .moduleArea li img{display:  block; margin:50px auto 52px;}
+    /* 기업가 정신 */
+    .enterpriseArea{height: auto; padding: 85px 30px 118px ;}
+    .enterpriseArea > div{position: relative;}
+    .enterpriseArea > div h2 { font-size: 36px; margin-bottom: 35px;}
+    .enterpriseArea div p{width: auto; line-height: 30px; font-size: 18px;}
+    .enterpriseArea .boxSlide ul li{ width: 315px; height: 315px;}
+    .enterpriseArea div .enterpriseBtn{width: 100%; display: block;margin-bottom: 60px; position: static;}
+    .boxBtn , .clovaBtn{display: none; }
+
+    .naverArea{height: auto; padding: 83px 30px 80px; }
+    .naverArea > div h2{font-size: 36px;}
+    .naverArea > div p{line-height: 30px;  font-size: 18px;}
+
+    .webtoonArea{height: auto; padding: 125px 30px;}
+    .webtoonArea h2{font-size: 36px; }
+    .webtoonArea p{width: auto; display: block; line-height: 30px; font-size:18px ; margin-bottom: 40px;}
+    .webtoonArea .linkBtn{width: 100%; position:static; }
+
+    /* page03_01 */
+    .softwareTitle{height: 520px; background-image: url(../image/sub/bg_m_spot_software.png); background-size: 380px; background-position:center bottom; }
+    .softwareTitle h2{width: 262px; line-height: 63px;padding-top: 115px; margin: 0 auto 50px;text-align: center; font-size: 48px;}
+    .softwareTitle p{display: none;}
+    .softwareContainer{padding: 54px 30px 120px ;}
+    .softwareContainer .linkBtn{display: none;}
+    .subMenu{width: 244px; flex-wrap: wrap; }
+    .subMenu li{margin: 0;}
+    .softwareContainer > div{display: flex; justify-content: center;}
+    .softwareContainer div .SoftWearEduArea li{width: 100%; margin-bottom: 41px;}
+    .softwareContainer div .SoftWearEduArea li a{margin-bottom: 41px;}
+    .softwareContainer div .SoftWearEduArea li a img{width: 100%;}
+    .softwareContainer div .SoftWearEduArea li:not(:nth-child(3n)){margin: 0;}
+    .softwareContainer div .SoftWearEduArea{justify-content: center;}
+
+    /*page03_01_01  */
+    .subpageInner{padding:119px 20px; position: relative;}
+    .subpageInner div section iframe{width:100%;  margin-bottom:44px;}
+    .subpageInner div > section{display: block; width: auto; margin-right: 0px;}
+
+    .subpageInner .relation{display:block; position: static; border: none; overflow-y:visible; width: auto; height: auto;}
+    .subpageInner .relation ul li a p{display: block; margin-bottom: 12px; overflow:visible; }
+
+    /* page04_01 */
+    .programTitle{height:520px;  background-position:center 90%; background-size: 50%;}
+    .programTitle h2{width: 325px;padding-top: 125PX; line-height: 62px; margin:0 auto 50px;text-align: center; font-size: 49px;}
+    .programTitle p{display: none;} 
+    .programContainer{padding: 55px 30px 120px;background-size: contain; }
+    .programContainer div .subMenu{flex-wrap: nowrap; width: 100%; justify-content: center;}
     .containerNav > div button{display: none;}
-    .programContainer section{display: block; margin: 60px 0;}
 
-    /* .programContainer .infoBox01 h2{width: 255px; font-size: 24px; background-image: url(../image/sub/bg_m_student_mentor_intro.png);} */
+    .programContainer section{display: block; margin: 60px 0;}
     .programContainer section:nth-of-type(1) h2{width: 100%; background-image: url(../image/sub/bg_m_student_mentor_intro.png);background-size: contain;}
     .programContainer section:nth-of-type(1) h2 a{ padding-top: 112px; padding-left: 30px; padding-bottom: 214px;}
+    .programContainer section > div{width: auto;}
     .programContainer .infoBox01 div iframe{width: 100%; margin-bottom: 30px;}
     .programContainer .infoBox01 div .historyBtn{text-align: center;}
     .programContainer .infoBox01 div > button{width: 243px; height: 52px;margin-right: 9px; display: inline-block;}
-
-    .programContainer section > div{width: auto;}
     .programContainer section h2{width: 255px; font-size: 20px; margin-bottom: 41px;}
     .programContainer .infoBox03 .infoItem01 figure:nth-of-type(1){margin-bottom: 40px;}
-
     .programContainer .infoBox04 input[type="button"]{ position: static; top: 54px; margin-bottom: 30px;}
     .programContainer .infoBox04 div .boxInner .downBtn{margin-bottom: 20px;}
 
-
+    /* page05 */
     .archiveTitle{height: 520px; background-image: url(../image/sub/bg_m_spot_archive.png); background-position: center;background-size: contain; }
     .archiveTitle h2{line-height: 42px; margin: 0 auto; font-size: 34px;text-align: center;}
     .archiveTitle p{display: none;}
@@ -755,8 +737,6 @@ hr{margin: 0;}
 
 
 
-
-
-
-
 }
+
+

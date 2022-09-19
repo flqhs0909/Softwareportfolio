@@ -3,58 +3,35 @@
 @font-face{src:url(../fonts/NanumSquareRoundEB.ttf) format('truetype'); font-family:"NanumSquareRoundEB"; font-style: normal;}
 @font-face{src: url(../fonts/NanumSquareRoundOTFB.otf) format('opentype'); font-family: 'NanumSquareRoundOTFB'; font-style: normal;}
 /*** NanumSquareRound  B ***/
-.linkBtn,
-/* index */
-main,.mainSlide01 .mainSlideBg01 p, 
-.swiper .swiper-wrapper .mainSlideBg02 div b ,.swiper .swiper-wrapper .mainSlideBg02 div mark ,.swiper .swiper-wrapper .mainSlideBg02 div p,
-/* page01 */
-.learnContainer ,
-/*page02_01  */
-.aiDataTitle div p, .aiDataContainer, .entryArea , .enterpriseArea,.naverArea,.webtoonArea p,
-/* page03_01, -06 */
-.softwareTitle,.softwareContainer, .subpageInner, 
-/* page04_02 */
-.programTitle p,.subMenu li , .programContainer,.downBtn,
-/* .containerNav ul, .infoBox01 */
-/* page05 */
-.archiveTitle p,.archiveContainer,
-footer div ul li a
-
+.linkBtn, main, .mainSlide01 .mainSlideBg01 p, .swiper .swiper-wrapper .mainSlideBg02 div b ,.swiper .swiper-wrapper .mainSlideBg02 div mark ,
+.swiper .swiper-wrapper .mainSlideBg02 div p,.learnContainer , .aiDataTitle div p, .aiDataContainer, .entryArea , .enterpriseArea, .naverArea, 
+.webtoonArea p, .softwareTitle,.softwareContainer, .subpageInner, .programTitle p,.subMenu li , .programContainer,.downBtn,
+.archiveTitle p,.archiveContainer,footer div ul li a
 {font-family:"NanumSquareRoundB"}
 
 /*** NanumSquareRound  EB ***/
-h2,header> div > nav ul li, .loginBtn,  .login p ,.login ul li a b ,.swiper-slide b ,
-/* index  */
-.swiper .swiper-wrapper .mainSlideBg2 div mark,
-/*page02_01  */
-.aiDataContainer article h2 , .entryArea h2 , .linkbtn ,
-/*page03 소프트웨어 */
-.subpageInner .relation > b,
-.subpageInner .relation ul li a b,
-/* page04 */
-.programContainer .programContents li ,.programContainer article,.programContainer article p ,.programContainer article mark ,.programContainer article button,
-footer 
+h2,header> div > nav ul li, .loginBtn,  .login p ,.login ul li a b ,.swiper-slide b , .swiper .swiper-wrapper .mainSlideBg2 div mark,
+.aiDataContainer article h2 , .entryArea h2 , .linkbtn , .subpageInner .relation > b, .subpageInner .relation ul li a b, .programContainer .programContents li ,
+.programContainer article,.programContainer article p ,.programContainer article mark , .programContainer article button, footer 
 {font-family:"NanumSquareRoundEB";}
 
 /*** NanumSquareRound  R ***/
  footer .width1200 div address , footer div small ,footer .width1200 p ,footer ul ,footer .width1200 div a,
- /* page02 */
- article mark ,.entryArea .dropInner .moduleArea li mark ,
- /* pagr04_02 */
- .programContainer .infoBox03 .infoItem01 figure p ,.programContainer section > div ul li
+ article mark ,.entryArea .dropInner .moduleArea li mark , .programContainer .infoBox03 .infoItem01 figure p ,
+ .programContainer section > div ul li
  {font-family: "NanumSquareRoundR";}
 /* **NanumSquareRoundOTFB ***/
-/* page02_01 */
  article p , article span
  {font-family:"NanumSquareRoundOTFB";}
 
 /* header 헤더 */
 header{width:100%; padding:15px 0; position:fixed; z-index:99;}
-header div .mobileNavMenu{display: none;}
 header > div { display:flex; justify-content:space-evenly;}
 header > div h1{display: inline-block;}
+header div .mobileNavMenu{display: none;}
 header > div nav {height:50px; line-height:50px;} 
-header > div nav ul li.active a{ border-bottom:2px solid #00EDA9;}
+header > div nav ul li:hover a{font-size: 22px;}
+header > div nav ul li.active a{display: inline-block; border-bottom:2px solid #00EDA9;}
 header ul{display:flex; width:540px; justify-content:space-between; font-size:18px; }
 header ul li a{font-size:18px; color:#ffffff; text-decoration:none;}
 header input[type="button"]{width:100px;height:48px; font-size:18px; cursor:pointer; border:none; color:#00EDA9; background:none; background-image:url(../image/main/button_login_white.png); background-repeat: no-repeat; background-size:cover; }
@@ -64,7 +41,7 @@ header.whiteBg.active{background-color:#ffffff;}
 header.whiteBg.active h1 img {opacity:0;}
 header.whiteBg.active h1{width: 162px; height: 52px; background-image:url(../image/main/logo_black.svg); cursor:pointer;}
 header.whiteBg.active nav ul li a{color: #181F41; }
-header.whiteBg.active nav ul li.active a{border-bottom:2px solid #00EDA9; }
+header.whiteBg.active nav ul li.active a{ border-bottom:2px solid #00EDA9; }
 header.whiteBg.active input[type="button"]{width:100px; height:48px; font-size:18px; cursor: pointer; border: none; color:#434DFE; background:none; background-image:url(../image/main/button_login_black.png); background-repeat:no-repeat; background-size:cover; }
 
 /* header Black */
@@ -110,10 +87,11 @@ footer div small{line-height: 50px;}
     header > div .mobileNavMenu button{position: absolute;cursor: pointer;}
     header > div .mobileNavMenu button:nth-of-type(2){opacity: 0;}
     header > div .mobileNavMenu img{ width: 50px; height: 50px; line-height: 50px;}
-    header > div .mobileNavMenu.active{opacity: 1;width:250px; height: 100vh; top: 0; right: 0; background-color: #434DFE;}
+
+    header > div .mobileNavMenu.active{opacity: 1;width:100%; height: 100vh; top: 0; right: 0; background-color:rgba(40, 40, 40, 0.5);}
     header > div .mobileNavMenu.active button:nth-of-type(1){display: none;}
-    header > div .mobileNavMenu.active button:nth-of-type(2){opacity: 1; right: 28px ; top: 24px;}
-    header > div .mobileNavMenu.active + nav{height: auto; position: absolute; right: 0; top: 15vh;}
+    header > div .mobileNavMenu.active button:nth-of-type(2){opacity: 1; right: 28px ; top: 24px; z-index: 99;}
+    header > div .mobileNavMenu.active + nav{height: 100vh;padding-top: 30%; position: absolute; right: 0; top: 0; background-color: #434DFE;}
     header > div .mobileNavMenu.active + nav ul { display: block;width: 250px; }
     header > div .mobileNavMenu.active + nav ul li{padding: 0 20px;}
     header > div .mobileNavMenu.active + nav ul li:hover a{color: #00EDA9;}
