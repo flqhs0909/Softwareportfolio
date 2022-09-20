@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  
+
   // 메인 상단 슬라이드
     var swiper = new Swiper(".mainSlide01", {
         navigation: {
@@ -141,6 +143,12 @@ $(document).ready(function(){
         $('.infoInner06 > li').eq($(this).index()).addClass('active');
     });
 
+
+      $('.programContainer .subMenu li:nth-of-type(3)').click(function(){
+        alert('준비중 입니다.');
+      });
+
+
     // page05 아카이브 탭 
     $(".clovaArea > li > button").click(function(){
       $(this).parent().addClass("active") 
@@ -148,7 +156,6 @@ $(document).ready(function(){
         .removeClass("active")
       return false;
     });
-
 
     // width812 nav메뉴 버튼
     $('.mobileNavMenu').click(function(){
